@@ -15,6 +15,6 @@
     "indentation": 2,
     "number-leading-zero": null,
     # "value-list-comma-space-after": always,
-    "unit-whitelist": ["em", "rem", "s", "px", "%", "deg", "vw", "vh", "x"]
+    "unit-whitelist": [ "x", "em", "rem", "s", "px", "%", "deg", "vw", "vh"]
   }
 }

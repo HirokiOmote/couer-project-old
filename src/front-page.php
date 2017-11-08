@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
-<header class="main-visual" data-aos="fade">
+<header class="main-visual"  data-aos="fade">
   <h1>エステティックの<br>新たな可能性を切り拓く<br>クールプロジェクト</h1>
 </header>
 
-<section class="sec-project" data-aos="fade">
+<section class="sec-project" data-aos="fade-down">
   <header>
     <h2>OUR PROJECT</h2>
     <p>事業案内</p>
@@ -56,7 +56,7 @@
   </ul>
 </section>
 
-<section class="sec-people" data-aos="fade">
+<section class="sec-people"  data-aos="fade-down">
   <header>
     <h2>OUR PROFILE</h2>
     <p>会社紹介</p>
@@ -93,7 +93,7 @@
 
     <li>
       <a href="">
-        <p>採用情報</p>
+        <p>社会貢献</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile005.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile005@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile005.png" alt="">
       </a>
     </li>
@@ -107,7 +107,7 @@
   </ul>
 </section>
 
-<section class="sec-topics" data-aos="fade">
+<section class="sec-topics"  data-aos="fade-down">
   <header>
     <h2>FEATURED TOPICS</h2>
     <p>クールグループのトピックス</p>
@@ -119,20 +119,13 @@
     <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics003.png" alt=""></a></li>
     <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics004.png" alt=""></a></li>
     <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics005.png" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics001.png" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics002.png" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics003.png" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics004.png" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics005.png" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics001.png" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics002.png" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics003.png" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics004.png" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics005.png" alt=""></a></li>
+    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics007.jpg" alt=""></a></li>
+    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics008.jpg" alt=""></a></li>
+    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics009.jpg" alt=""></a></li>
   </ul>
 </section>
 
-<section class="sec-new">
+<section class="sec-new"  data-aos="fade-down">
   <header>
     <h2>WHAT’S NEW</h2>
     <p>最新情報</p>
@@ -195,27 +188,107 @@
   </a>
 </section>
 
-<section class="sec-brand" data-aos="fade">
+<section class="sec-brand"  data-aos="fade-down">
   <header>
     <h2>OUR SERVICE BLAND</h2>
     <p>商品ブランド</p>
   </header>
 
   <ul>
-    <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand001.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand001.png" alt=""></a></li>
-    <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand002.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand002.png" alt=""></a></li>
-    <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand003.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand003@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand003.png" alt=""></a></li>
-    <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand004.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand004@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand004.png" alt=""></a></li>
-    <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand005.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand005@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand005.png" alt=""></a></li>
-    <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand006.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand006@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand006.png" alt=""></a></li>
-    <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand007.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand007@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand007.png" alt=""></a></li>
-    <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand008.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand008@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand008.png" alt=""></a></li>
-    <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand009.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand009@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand009.png" alt=""></a></li>
-    <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand010.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand010@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand010.png" alt=""></a></li>
-    <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand011.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand011@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand011.png" alt=""></a></li>
-    <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand012.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand012@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand012.png" alt=""></a></li>
-    <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand013.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand013@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand013.png" alt=""></a></li>
-    <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand014.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand014@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand014.png" alt=""></a></li>
+    <li>
+      <a href="">
+        <p>トータルビューティ<br>クールエステティック</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand001.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand001.png" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <p>痩身専門サロン<br>クールグランボディ</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand002.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand002.png" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <p>フェイシャル専門サロン<br>クールフェイシャルボーテ</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand003.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand003@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand003.png" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <p>勝ち組サロン経営術<br>茂藤塾<br>（もとうじゅく）</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand004.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand004@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand004.png" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <p>エステティシャン<br>新人研修・幹部会議<br>動画配信サイト<br>クールムービー</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand005.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand005@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand005.png" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <p>お役立ち<br>脱毛テクニック<br>セミナー</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand014.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand014@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand014.png" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <p>国産美容器・化粧品<br>ジェイ・ビー・マシナリー</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand006.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand006@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand006.png" alt=""></a></li>
+    <li>
+      <a href="">
+        <p>デリケートゾーンケア<br>オーガニックコスメ<br>ピコドンナ<br>シリーズ</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand007.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand007@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand007.png" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <p>バスタイム<br>ボディケアコスメ<br>ピコドンナ・ヌーディスト<br>シリーズ</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand008.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand008@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand008.png" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <p>美容器専用美容液<br>（ボディ・バスト・フェイス）<br>エット・シリーズ</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand009.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand009@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand009.png" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <p>プライベートブランド<br>コスメ<br>ボーテ・ド・クール</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand010.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand010@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand010.png" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <p>クールエステティック<br>ビューティショップ<br>名古屋</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand016.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand016@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand016.png" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <p>一般美容商品<br>ECサイト<br>ココセレ</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand011.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand011@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand011.png" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <p>業務用美容商品<br>ECサイト<br>クールBtoB<br>オンラインショップ</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand012.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand012@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand012.png" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <p>バイオ冬虫夏草<br>北虫草<br>（ほくちゅうそう）</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand013.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand013@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand013.png" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <p>クール<br>日本フェイシャル<br>エステティック</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand015.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand015@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand015.png" alt="">
+      </a>
+    </li>
   </ul>
 </section>
 

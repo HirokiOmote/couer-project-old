@@ -1,6 +1,21 @@
 import $ from 'jquery';
 
+function init () {
+  $('[data-navigation-submenu]').slideUp();
+
+  if (window.innerWidth < 1140) {
+    $('[data-menu-trigger]').fadeIn().removeClass('active');
+    $('[data-navigation]').hide();
+    $('[data-navigation-sub-trigger]').show();
+  } else {
+    $('[data-menu-trigger]').fadeOut();
+    $('[data-navigation]').fadeIn();
+  }
+}
+
 function navigation () {
+  let timer = false;
+
   $(function () {
     $('[data-menu-trigger]').on('click', function () {
       $(this).next().slideToggle();
@@ -11,7 +26,7 @@ function navigation () {
       $(this).next().slideToggle();
     });
 
-    if (window.innerWidth >= 1140) {
+    if (window.innerWidth >= 1024) {
       $('[data-navigation-sub-mouseover]').on(
         {'mouseenter': function () {
           $('[data-navigation-submenu]').slideDown();
@@ -22,6 +37,17 @@ function navigation () {
         }
       );
     }
+
+    $(window).resize(function () {
+      if (timer !== false) {
+        clearTimeout(timer);
+      }
+
+      timer = setTimeout(function () {
+        console.log('resized');
+        init();
+      }, 200);
+    });
   });
 }
 

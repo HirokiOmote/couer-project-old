@@ -141,8 +141,11 @@ b {
 
     > li {
       position: relative;
+      background-color: #c6faff;
 
       @include media(lg) {
+        background-color: transparent;
+
         &:not(:first-child) {
           border-left: 1px solid #aaa;
         }
@@ -155,6 +158,7 @@ b {
       }
 
       a {
+        position: relative;
         display: block;
         padding: 1em;
         border-top: 1px solid #aaa;
@@ -165,6 +169,34 @@ b {
         }
       }
     }
+
+    > li:not(:nth-child(4)) a {
+      @include media(lg) {
+        &::after {
+          position: absolute;
+          top: 20px;
+          left: 15%;
+          display: block;
+          width: 0;
+          height: 2px;
+          background: linear-gradient(to right, #6dc6cd 0%, #2151a2 100%);
+          content: "";
+          transition: all .4s ease;
+        }
+
+        &:hover {
+          &::after {
+            width: 70%;
+          }
+        }
+      }
+    }
+
+    > li:last-child a:hover::after {
+      @include media(lg) {
+        width: 92.5%;
+      }
+    }
   }
 
   .sub-trigger {
@@ -172,12 +204,12 @@ b {
     top: 0;
     right: 0;
     display: flex;
+    padding: 0;
     width: 43px;
     height: 43px;
     border: none;
     background-color: $black-color;
     color: #fff;
-    font-size: 20px;
     appearance: none;
     outline: none;
 
@@ -186,17 +218,20 @@ b {
     }
 
     span {
+      position: absolute;
       display: block;
       background-color: #fff;
-      width: 30px;
-      height: 1px;
+      width: 25px;
+      height: 2px;
+      left: 10px;
+      top: 20px;
 
       &:last-child {
         position: absolute;
-        left: 7px;
-        top: 21px;
+        left: 10px;
+        top: 20px;
         transform: rotate(90deg);
-        transition: transform .2s ease;
+        transition: transform .5s ease;
       }
     }
 
@@ -210,6 +245,7 @@ b {
   .sub-menu {
     display: none;
     font-size: 1.2rem;
+    background-color: #fff;
 
     @include media(lg) {
       position: absolute;
@@ -222,9 +258,13 @@ b {
         a {
           display: block;
           padding: 1em;
-          background-color: $black-color;
+          background-color: #2151a2;
           color: #fff;
           font-size: 1.4rem;
+
+          &:hover {
+            opacity: .8;
+          }
         }
       }
     }
@@ -236,6 +276,7 @@ b {
     font-size: 1.3rem;
 
     @include media(lg) {
+      justify-content: flex-end;
       border-top-width: 0;
     }
 
@@ -248,12 +289,14 @@ b {
       @include media(lg) {
         margin-top: 20px;
         padding: 0 .5rem;
+        transition: all ease .2s;
 
         &:last-child {
           padding-right: 0;
         }
       }
 
+      &:hover,
       &.active {
         color: #2b2b2b;
       }
@@ -261,23 +304,38 @@ b {
       &::before {
         margin-right: 5px;
         font-size: 8px;
+        vertical-align: -.4em;
       }
 
       &:nth-child(1) {
         &::before {
-          content: "●";
+          content: url("./images/common/icon_header_lang_ja.svg");
+        }
+
+        &:hover,
+        &.active {
+          &::before {
+            content: url("./images/common/icon_header_lang_ja_active.svg");
+          }
         }
       }
 
       &:nth-child(2) {
         &::before {
-          content: "★";
+          content: url("./images/common/icon_header_lang_ch.svg");
+        }
+
+        &:hover,
+        &.active {
+          &::before {
+            content: url("./images/common/icon_header_lang_ch_active.svg");
+          }
         }
       }
 
       &:nth-child(3) {
         &::before {
-          content: url("./images/common/icon_lang_en.png");
+          content: url("./images/common/icon_header_lang_en.png");
         }
       }
     }
@@ -286,9 +344,10 @@ b {
 
 .global-footer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin-top: 43px;
-  padding: 27px 0;
+  padding: 27px 0 0;
   background-color: #eef3f7;
 
   @include media(sm) {
@@ -313,7 +372,9 @@ b {
 
   li {
     padding: 17.5px 10px;
-    max-width: 320px;
+    width: 100%;
+    max-width: 340px;
+    text-align: center;
   }
 
   .ttl {
@@ -346,9 +407,15 @@ b {
     display: none;
     font-size: 1.4rem;
     line-height: 1.45;
+    text-align: left;
 
     p {
-      margin-top: .45em;
+      padding-top: 1em;
+
+      &:not(:first-child) {
+        margin-top: 1em;
+        border-top: 1px solid #ccc;
+      }
     }
   }
 
@@ -356,5 +423,21 @@ b {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+  }
+
+  .copyright {
+    margin-top: 27px;
+    padding: 1em 0;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+
+    @include media(sm) {
+      font-size: 1.2rem;
+    }
+
+    @include media(md) {
+      font-size: 1.4rem;
+    }
   }
 }

@@ -1,5 +1,5 @@
 module.exports = {
-  "files": "./src/**/*",
-  proxy: "http://www.coeur-project.dev",
-  reloadDelay: 500
+  files: "./wordpress/**/*.css, ./wordpress/**/*.js, ./wordpress/**/*.php",
+  injectChanges: true,
+  proxy: "http://www.coeur-project.dev"
 }
