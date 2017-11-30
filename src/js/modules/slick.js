@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'slick-carousel';
 
 function topNews () {
-  $('.slick').slick({
+  $('[data-top-news]').slick({
     dots: false,
     arrows: false,
     infinite: true,
@@ -78,13 +78,13 @@ function infiniteSlide () {
 function reInit () {
   let timer = false;
 
-  $(window).resize(function () {
+  window.addEventListener('resize', function () {
     if (timer !== false) {
       clearTimeout(timer);
     }
+
     timer = setTimeout(function () {
-      console.log('resized');
-      $('.slick').slick('reinit');
+      $('[data-top-news]').slick('reinit');
       $('[data-infinite-slide]').slick('reinit');
     }, 200);
   });
@@ -94,8 +94,9 @@ function init () {
   $(function () {
     topNews();
     infiniteSlide();
-    reInit();
   });
+
+  reInit();
 }
 
 export default init();
