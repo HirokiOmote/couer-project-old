@@ -3,6 +3,7 @@
   "rules": {
     "at-rule-no-unknown": [ true, {
       "ignoreAtRules": [
+        "for",
         "extend",
         "extends",
         "ignores",
@@ -15,6 +16,6 @@
     "indentation": 2,
     "number-leading-zero": null,
     # "value-list-comma-space-after": always,
-    "unit-whitelist": [ "x", "em", "rem", "s", "px", "%", "deg", "vw", "vh"]
+    "unit-whitelist": ["ms", "x", "em", "rem", "s", "px", "%", "deg", "vw", "vh"]
   }
 }
