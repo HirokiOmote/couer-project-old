@@ -1,13 +1,41 @@
+%list-delay {
+  @media screen and (min-width: 768px) {
+    @for $i from 1 through 10 {
+      $time: (100ms * $i);
+
+      &:nth-child(#{$i}) {
+        transition-delay: $time;
+      }
+    }
+  }
+}
+
+.bg-video {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
+
 .main-visual {
   position: relative;
   height: 180px;
-  background:
-    url("./images/pages/front-page/img_main.png") right 0 bottom 0 no-repeat,
-    url("./images/pages/front-page/bg_main.gif") 50% 50% no-repeat;
+  background: url("./images/pages/front-page/img_main.png") right 0 bottom 0 no-repeat, url("./images/pages/front-page/bg_main@sp.png") 50% 50% no-repeat;
   background-size: contain, cover;
 
-  @include media(md) {
+  @media screen and (min-width: 1200px) {
     height: 590px;
+    background: url("./images/pages/front-page/img_main.png") right 0 bottom 0 no-repeat;
   }
 
   h1 {
@@ -25,11 +53,6 @@
     @include media(md) {
       font-size: 22px;
     }
-  }
-
-  video {
-    width: 100%;
-    height: 100%;
   }
 }
 
@@ -86,6 +109,8 @@
   }
 
   li {
+    @extend %list-delay;
+
     margin: 7.5px;
 
     @each $project-color-map in $project-color-maps {
@@ -109,7 +134,7 @@
     height: 137px;
     border: 3px solid #000;
     border-radius: 100%;
-    transition: all 0.2 ease;
+    transition: all 1s ease;
 
     @include media(md) {
       margin: 20px;
@@ -138,14 +163,10 @@
       letter-spacing: .4em;
       line-height: 1.7;
       opacity: 0;
-      transition: all .4s ease;
+      transition: all 1s ease;
       font: {
         size: 1.4rem;
         weight: 600;
-      }
-
-      img {
-        filter: blur(0);
       }
 
       @include media(md) {
@@ -154,7 +175,7 @@
     }
 
     img {
-      transition: all .2s ease;
+      transition: all 1s ease;
     }
 
     &:hover {
@@ -163,8 +184,7 @@
       }
 
       img {
-        opacity: .4;
-        filter: blur(5px);
+        opacity: .15;
       }
     }
 
@@ -194,6 +214,8 @@
   }
 
   li {
+    @extend %list-delay;
+
     margin: 7.5px;
 
     @include media(md) {
@@ -230,7 +252,7 @@
       text-align: center;
       letter-spacing: .4em;
       opacity: 0;
-      transition: all .4s ease;
+      transition: all 1s ease;
       font: {
         size: 1.4rem;
         weight: 600;
@@ -242,7 +264,7 @@
     }
 
     img {
-      transition: all .4s ease;
+      transition: all 1s ease;
     }
 
     &:hover {
@@ -251,8 +273,7 @@
       }
 
       img {
-        opacity: .4;
-        filter: blur(5px);
+        opacity: .15;
       }
     }
   }
@@ -260,6 +281,15 @@
 
 .sec-topics {
   @extend .section;
+
+  .bx-wrapper {
+    width: 100%;
+    max-width: 100% !important;
+    box-shadow: none;
+    border-width: 0;
+    margin-bottom: 0;
+    margin-top: 28px;
+  }
 
   ul {
     margin-top: 28px;
@@ -377,7 +407,7 @@
       letter-spacing: .02em;
       line-height: 1.3;
       opacity: 0;
-      transition: all .4s ease;
+      transition: all 1s ease;
       font: {
         size: 1.2rem;
         weight: 600;
@@ -394,7 +424,7 @@
 
     img {
       opacity: 1;
-      transition: all .4s ease;
+      transition: all 1s ease;
     }
 
     &:hover {
@@ -403,8 +433,7 @@
       }
 
       img {
-        opacity: .4;
-        filter: blur(5px);
+        opacity: .15;
       }
     }
   }

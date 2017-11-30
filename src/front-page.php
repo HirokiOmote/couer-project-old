@@ -1,53 +1,58 @@
 <?php get_header(); ?>
 
-<header class="main-visual"  data-aos="fade">
+<video class="bg-video" autoplay muted loop>
+  <source src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/bg_main.webm" type="video/webm">
+  <source src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/bg_main.mp4" type="video/mp4">
+</video>
+
+<header class="main-visual" data-aos="fade">
   <h1>エステティックの<br>新たな可能性を切り拓く<br>クールプロジェクト</h1>
 </header>
 
-<section class="sec-project" data-aos="fade-down">
+<section class="sec-project" data-aos="fade">
   <header>
     <h2>OUR PROJECT</h2>
     <p>事業案内</p>
   </header>
 
   <ul>
-    <li>
+    <li data-aos="fade-down">
       <a href="">
         <p>エステティック<br>事業部</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project001.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project001.png" alt="">
       </a>
     </li>
-    <li>
+    <li data-aos="fade-down">
       <a href="">
         <p>FC事業部</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project002.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project002.png" alt="">
       </a>
     </li>
-    <li>
+    <li data-aos="fade-down">
       <a href="">
         <p>コンサルティング事業部</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project003.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project003@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project003.png" alt="">
       </a>
     </li>
-    <li>
+    <li data-aos="fade-down">
       <a href="">
         <p>ビューティ<br>プロダクツ<br>事業部</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project004.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project004@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project004.png" alt="">
       </a>
     </li>
-    <li>
+    <li data-aos="fade-down">
       <a href="">
         <p>eコマース<br>事業部</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project005.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project005@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project005.png" alt="">
       </a>
     </li>
-    <li>
+    <li data-aos="fade-down">
       <a href="">
         <p>バイオヘルス<br>事業部</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project006.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project006@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project006.png" alt="">
       </a>
     </li>
-    <li>
+    <li data-aos="fade-down">
       <a href="">
         <p>海外<br>事業部</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project007.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project007@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project007.png" alt="">
@@ -56,49 +61,49 @@
   </ul>
 </section>
 
-<section class="sec-people"  data-aos="fade-down">
+<section class="sec-people" data-aos="fade-down">
   <header>
     <h2>OUR PROFILE</h2>
     <p>会社紹介</p>
   </header>
 
   <ul>
-    <li>
+    <li data-aos="fade-down">
       <a href="">
         <p>企業理念</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile001.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile001.png" alt="">
       </a>
     </li>
 
-    <li>
+    <li data-aos="fade-down">
       <a href="">
         <p>会社情報</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile002.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile002.png" alt="">
       </a>
     </li>
 
-    <li>
+    <li data-aos="fade-down">
       <a href="">
         <p>メディア</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile003.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile003@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile003.png" alt="">
       </a>
     </li>
 
-    <li>
+    <li data-aos="fade-down">
       <a href="">
         <p>採用情報</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile004.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile004@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile004.png" alt="">
       </a>
     </li>
 
-    <li>
+    <li data-aos="fade-down">
       <a href="">
         <p>社会貢献</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile005.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile005@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile005.png" alt="">
       </a>
     </li>
 
-    <li>
+    <li data-aos="fade-down">
       <a href="">
         <p>お問い合わせ</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile006.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile006@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile006.png" alt="">
@@ -107,7 +112,7 @@
   </ul>
 </section>
 
-<section class="sec-topics"  data-aos="fade-down">
+<section class="sec-topics" data-aos="fade">
   <header>
     <h2>FEATURED TOPICS</h2>
     <p>クールグループのトピックス</p>
@@ -125,7 +130,7 @@
   </ul>
 </section>
 
-<section class="sec-new"  data-aos="fade-down">
+<section class="sec-new" data-aos="fade">
   <header>
     <h2>WHAT’S NEW</h2>
     <p>最新情報</p>
@@ -188,7 +193,7 @@
   </a>
 </section>
 
-<section class="sec-brand"  data-aos="fade-down">
+<section class="sec-brand" data-aos="fade">
   <header>
     <h2>OUR SERVICE BLAND</h2>
     <p>商品ブランド</p>
