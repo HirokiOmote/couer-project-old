@@ -19,7 +19,7 @@
     <li data-aos="fade-down">
       <a href="">
         <p>エステティック<br>事業部</p>
-        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project001.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project001.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project001.svg" alt="">
       </a>
     </li>
     <li data-aos="fade-down">
