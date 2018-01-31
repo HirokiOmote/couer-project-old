@@ -1,0 +1,142 @@
+@import "common";
+
+.header {
+  @extend %page-header;
+
+  background-image: url("images/pages/recruit/bg_header.jpg");
+}
+
+.section-recruit {
+  margin: 0 10px;
+  padding: 40px 0 48px;
+  border-top: 1px dotted #888;
+
+  @media screen and (min-width: 768px) {
+    border-width: 0;
+  }
+
+  header {
+    color: #6d6d6d;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: .2em;
+
+    &::after {
+      display: inline-block;
+      margin-top: 10px;
+      content: url("./images/pages/recruit/img_recruit001.png");
+    }
+
+    p {
+      font-size: 2rem;
+
+      @media screen and (min-width: 768px) {
+        font-size: 2.6rem;
+      }
+    }
+
+    h2 {
+      margin-top: 18px;
+      font-size: 1.4rem;
+    }
+  }
+
+  p {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .table-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @media screen and (min-width: 1024px) {
+      justify-content: space-between;
+      margin: 0 auto;
+      padding: 30px;
+      max-width: 1200px;
+    }
+  }
+
+  table {
+    margin-top: 47px;
+    width: 100%;
+
+    @media screen and (min-width: 1024px) {
+      width: 48%;
+      max-width: 530px;
+    }
+  }
+
+  caption {
+    margin: 0 -10px;
+    padding: 8px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.4rem;
+
+    @media screen and (min-width: 768px) {
+      margin: 0;
+    }
+  }
+
+  th,
+  td {
+    display: block;
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 1.5;
+
+    @media screen and (min-width: 768px) {
+      display: table-cell;
+    }
+  }
+
+  th {
+    min-width: 10em;
+    padding-top: 1rem;
+
+    &::before {
+      content: "【";
+    }
+
+    &::after {
+      content: "】";
+    }
+
+    @media screen and (min-width: 768px) {
+      text-align: right;
+      padding-right: 1.5em;
+    }
+  }
+}
+
+.section-recruit-bottom {
+  @extend .section-recruit;
+
+  header {
+    &::after {
+      content: url("./images/pages/recruit/img_recruit002.png");
+    }
+  }
+
+  p {
+    line-height: 2;
+  }
+
+  p + p {
+    margin-top: 2em;
+
+    a {
+      &::before {
+        content: "＞  ";
+      }
+
+      &::after {
+        content: "  ＜";
+      }
+    }
+  }
+}
