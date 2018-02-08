@@ -1,0 +1,75 @@
+@import "common";
+
+.header {
+  @extend %page-header;
+
+  background-image: url("images/pages/media/bg_header.jpg");
+}
+
+.section-media {
+  margin: 0 10px;
+  padding: 50px 0;
+  border-top: 1px dotted #888;
+
+  @media screen and (min-width: 768px) {
+    margin: 0;
+    border-width: 0;
+  }
+
+  header {
+    @extend %section-header;
+  }
+}
+
+.gallery-5column {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 28px auto;
+  padding: 5px;
+  max-width: 1150px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 35px;
+  }
+
+  li {
+    padding: 12px 5px;
+    width: 50%;
+
+    @media screen and (min-width: 768px) {
+      padding: 20px;
+      width: calc(100% / 3 - 0.1px);
+    }
+
+    @media screen and (min-width: 1024px) {
+      padding: 20px;
+      width: calc(100% / 5 - 0.1px);
+    }
+  }
+
+  figure {
+    text-align: center;
+  }
+
+  figcaption {
+    margin-top: .5em;
+    text-decoration: none;
+    white-space: pre;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+}
+
+.gallery-8column {
+  @extend .gallery-5column;
+
+  li {
+    @media screen and (min-width: 768px) {
+      width: calc(100% / 5 - 0.1px);
+    }
+
+    @media screen and (min-width: 1024px) {
+      width: calc(100% / 8 - 0.1px);
+    }
+  }
+}

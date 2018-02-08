@@ -54,7 +54,8 @@ add_action( 'admin_footer-post.php', 'media_uploader_default_view' );
 // サムネイル画像
 add_theme_support( 'post-thumbnails' );
 set_post_thumbnail_size( 180, 180 );
-add_image_size( 'slide_thumbnail', 180, 180 );
+add_image_size( 'media_thumbnail_5column', 143, 143 );
+add_image_size( 'media_thumbnail_8column', 216, 216 );
 add_image_size( 'archive_main', 1200, 675 );
 add_filter('jpeg_quality', create_function('$arg','return 100;'));
 

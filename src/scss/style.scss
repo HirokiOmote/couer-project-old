@@ -24,6 +24,10 @@ Version:        1.00
   @import "pages/front-page";
 }
 
+.media {
+  @import "pages/media";
+}
+
 .recruit {
   @import "pages/recruit";
 }
