@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="44" viewBox="0 0 52 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3e3e3e;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="50" y="2236" width="52" height="44" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#0e6fa8"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="icon_fc.svg" class="cls-1" d="M75.272,2267.51l-12.637-12.72L50,2267.51h3.12V2280h2.418v-12.49h14.2V2280h2.417v-12.49h3.121Zm-14.335,5.15H57.428v-3.53h3.508v3.53Zm6.905,0H64.336v-3.53h3.506v3.53Zm-6.905,5.31H57.428v-3.53h3.508v3.53Zm6.905,0H64.336v-3.53h3.506v3.53ZM102,2267.51l-12.63-12.72-12.633,12.72h3.116V2280h2.419v-12.49h14.2V2280h2.414v-12.49H102Zm-14.329,5.15H84.165v-3.53h3.508v3.53Zm6.9,0h-3.5v-3.53h3.5v3.53Zm-6.9,5.31H84.165v-3.53h3.508v3.53Zm6.9,0h-3.5v-3.53h3.5v3.53Zm-5.95-29.25L75.983,2236l-12.637,12.72h3.14v12.49H68.9v-12.49H83.1v12.49h2.419v-12.49h3.1Zm-14.32,5.15H70.792v-3.53H74.3v3.53Zm6.907,0H77.7v-3.53H81.21v3.53Zm-6.907,5.31H70.792v-3.53H74.3v3.53Zm6.907,0H77.7v-3.53H81.21v3.53Z" transform="translate(-50 -2236)"/>
+</svg>

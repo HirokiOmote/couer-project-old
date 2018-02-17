@@ -28,10 +28,18 @@ Version:        1.00
   @import "pages/guide";
 }
 
+.profile {
+  @import "pages/profile";
+}
+
 .media {
   @import "pages/media";
 }
 
 .recruit {
   @import "pages/recruit";
+}
+
+.contact {
+  @import "pages/contact";
 }

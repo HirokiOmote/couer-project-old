@@ -1,3 +1,14 @@
+$icon-colors: (
+  project: #898989,
+  esthetique: #35318f,
+  fc: #0e6fa8,
+  consulting: #456436,
+  products: #805d27,
+  ec: #835b84,
+  bio: #bb5a41,
+  overseas: #df6a70,
+);
+
 %page-header {
   display: flex;
   align-items: center;
@@ -24,6 +35,7 @@
 
   p {
     font-size: 2rem;
+    line-height: 1;
 
     @media screen and (min-width: 768px) {
       font-size: 2.6rem;
@@ -33,5 +45,161 @@
   h2 {
     margin-top: 18px;
     font-size: 1.4rem;
+  }
+}
+
+.section-profile {
+  width: 100%;
+
+  .flex-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .half-column {
+    max-width: 580px;
+    width: 100%;
+
+    @media (min-width: 768px) {
+      margin: -20px 20px 0;
+    }
+  }
+
+  figure {
+    margin-top: 30px;
+
+    @media (min-width: 768px) {
+      margin: 50px 20px 0;
+    }
+  }
+
+  section {
+    padding: 20px 0;
+
+    @media (max-width: 768px) {
+      border-top: 1px dotted #888;
+    }
+  }
+
+  header {
+    @extend %section-header;
+
+    margin-bottom: 55px;
+
+    p:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  h3 {
+    padding-bottom: 3px;
+    font-size: 1.6rem;
+
+    @media (min-width: 768px) {
+      font-size: 1.9rem;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 2.2rem;
+    }
+
+    border-bottom: {
+      width: 1px;
+      style: solid;
+    }
+
+    &::before {
+      display: inline-block;
+      margin-bottom: -6px;
+      width: 55px;
+      height: 35px;
+      content: "";
+
+      @media (min-width: 768px) {
+        width: 65px;
+        height: 44px;
+      }
+    }
+  }
+
+  p {
+    margin-top: .5em;
+    font-size: 1.4rem;
+    line-height: 1.5;
+
+    &:first-of-type {
+      margin-top: 1em;
+    }
+  }
+
+  .table {
+    padding: 1em 0;
+
+    border-bottom: 1px dotted #888;
+  }
+
+  th,
+  td {
+    font-size: 1.2rem;
+    line-height: 1.5;
+
+    @media (min-width: 768px) {
+      font-size: 1.4rem;
+    }
+  }
+
+  th {
+    min-width: 6em;
+    padding-right: 1em;
+
+    &::before {
+      content: "■";
+    }
+  }
+}
+
+@each $key, $color in $icon-colors {
+  .#{$key} {
+    @if $key == 'products' {
+      h4 {
+        color: $color;
+        font-size: 1.6rem;
+
+        @media (min-width: 768px) {
+          font-size: 1.8rem;
+        }
+      }
+
+      section {
+        padding: 20px 0;
+
+        @media (min-width: 768px) {
+          &:not(:first-of-type) {
+            border-top: 1px dotted #888;
+          }
+        }
+
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+    }
+
+    @else if $key == 'beauty' {
+      padding-top: 0;
+      border-top: 0;
+    }
+
+    h3 {
+      width: 100%;
+      border-bottom-color: $color;
+      color: $color;
+
+      &::before {
+        background: url("./images/pages/common/icon_#{$key}.svg") left 0 bottom 0 no-repeat;
+        background-size: contain;
+      }
+    }
   }
 }

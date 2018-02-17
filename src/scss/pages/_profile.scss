@@ -1,0 +1,113 @@
+@import "common";
+
+.header {
+  @extend %page-header;
+
+  background-image: url("images/pages/profile/bg_header.jpg");
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 45px 3vw;
+}
+
+.history {
+  margin-top: 25px;
+  padding: 25px 0;
+  max-width: 580px;
+  width: 100%;
+  border-top: 1px dotted #888;
+
+  @media (min-width: 768px) {
+    margin: 25px 20px;
+    border-width: 0;
+  }
+
+  header {
+    @extend %section-header;
+  }
+
+  table {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  th,
+  td {
+    font-size: 1.2rem;
+    line-height: 1.5;
+
+    @media (min-width: 768px) {
+      font-size: 1.4rem;
+    }
+  }
+
+  th {
+    min-width: 6em;
+  }
+
+  td {
+    display: flex;
+
+    &::before {
+      padding-right: .5em;
+      content: "：";
+    }
+  }
+}
+
+.mark {
+  @extend .history;
+
+  p {
+    margin-top: 45px;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.3;
+
+    @media (min-width: 768px) {
+      br {
+        display: none;
+      }
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  li {
+    margin: 15px;
+    width: calc(50% - 30px);
+    text-align: center;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      margin: 30px;
+      width: calc(100% / 3 - 60px - .1px);
+    }
+  }
+}
+
+.footer-slide {
+  display: none;
+  padding-top: 10px;
+
+  @media (min-width: 1024px) {
+    display: block;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    margin: 0 3px;
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="44" viewBox="0 0 32 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3e3e3e;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="667" y="2485" width="32" height="44" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#bb5a41"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="icon_bio.svg" class="cls-1" d="M692.561,2492.56v-1.96l1.289-.43v-4.05a48.023,48.023,0,0,0-11.259-1.12,45.839,45.839,0,0,0-10.508.91v4.12l1.147,0.57v1.96c-6.65,2.51-6.223,6.16-6.223,6.16v25.24c0,2.87,3.2,5.04,15.584,5.04S699,2526.55,699,2523.68v-24.41C699,2494.58,692.561,2492.56,692.561,2492.56Zm-0.553,21.36-13.844,5.06a6.008,6.008,0,0,1-7.671-3.42,5.817,5.817,0,0,1,3.5-7.51l13.838-5.06a6.007,6.007,0,0,1,7.669,3.43A5.8,5.8,0,0,1,692.008,2513.92Zm-3.716-9.73-6.918,2.54,3.25,8.51,6.919-2.53a4.519,4.519,0,0,0,2.728-5.84A4.691,4.691,0,0,0,688.292,2504.19Z" transform="translate(-667 -2485)"/>
+</svg>
