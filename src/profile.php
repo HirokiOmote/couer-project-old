@@ -14,7 +14,7 @@
   </header>
 
   <div class="wrapper">
-    <section class="section-profile">
+    <section class="section-profile" id="profile">
       <header>
         <p>COMPANY PROFILE</p>
         <h2>会社情報</h2>
@@ -264,7 +264,7 @@
       </div>
     </section>
 
-    <section class="history">
+    <section class="history" id="history">
       <header>
         <p>COMPANY HISOTRY</p>
         <h2>グループ沿革</h2>
@@ -392,7 +392,7 @@
       </table>
     </section>
 
-    <section class="mark">
+    <section class="mark" id="mark">
       <header>
         <p>REGISTERED TRADEMARK</p>
         <h2>登録商標</h2>

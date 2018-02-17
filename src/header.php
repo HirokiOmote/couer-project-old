@@ -22,24 +22,24 @@
 
 	<nav class="global-navigation" data-navigation>
 		<ul class="main-menu">
-			<li><a href="">ホーム</a></li>
-			<li><a href="">事業案内</a></li>
-			<li><a href="">企業理念</a></li>
+			<li><a href="<?php echo home_url(); ?>">ホーム</a></li>
+			<li><a href="<?php echo home_url('guide'); ?>">事業案内</a></li>
+			<li><a href="<?php echo home_url('policy'); ?>">企業理念</a></li>
 			<li data-navigation-sub-mouseover>
-				<a href="">会社情報</a>
+				<a href="<?php echo home_url('profile'); ?>">会社情報</a>
 				<button class="sub-trigger" data-navigation-sub-trigger>
 					<span></span>
 					<span></span>
 				</button>
 				<ul class="sub-menu" data-navigation-submenu>
-					<li><a href="">会社概要</a></li>
-					<li><a href="">グループ沿革</a></li>
-					<li><a href="">登録商標</a></li>
+					<li><a href="<?php echo home_url('profile#profile'); ?>">会社概要</a></li>
+					<li><a href="<?php echo home_url('profile#history'); ?>">グループ沿革</a></li>
+					<li><a href="<?php echo home_url('profile#mark'); ?>">登録商標</a></li>
 				</ul>
 			</li>
-			<li><a href="">メディア</a></li>
-			<li><a href="">採用情報</a></li>
-			<li><a href="">お問い合わせ</a></li>
+			<li><a href="<?php echo home_url('media'); ?>">メディア</a></li>
+			<li><a href="<?php echo home_url('recruit'); ?>">採用情報</a></li>
+			<li><a href="<?php echo home_url('contact'); ?>">お問い合わせ</a></li>
 		</ul>
 
 		<ul class="lang-menu">
