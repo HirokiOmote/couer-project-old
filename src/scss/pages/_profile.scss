@@ -61,6 +61,12 @@
 .mark {
   @extend .history;
 
+  header {
+    p {
+      margin-top: 0;
+    }
+  }
+
   p {
     margin-top: 45px;
     text-align: center;
