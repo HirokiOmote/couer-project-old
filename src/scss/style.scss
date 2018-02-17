@@ -24,6 +24,10 @@ Version:        1.00
   @import "pages/front-page";
 }
 
+.policy {
+  @import "pages/policy";
+}
+
 .guide {
   @import "pages/guide";
 }

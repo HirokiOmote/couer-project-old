@@ -32,6 +32,12 @@ b {
   font-weight: bold;
 }
 
+.visible-sp {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
 .hover-effect {
   transition: opacity .2s ease;
 
