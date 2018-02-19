@@ -11,7 +11,7 @@
 
 <header class="global-header">
 	<div class="logo">
-		<img srcset="<?php echo get_stylesheet_directory_uri();?>/images/common/logo.png, <?php echo get_stylesheet_directory_uri();?>/images/common/logo@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/common/logo.png" alt="">
+		<img src="<?php echo get_stylesheet_directory_uri();?>/images/common/logo.svg" alt="クールプロジェクト">
 	</div>
 
 	<a class="menu-trigger" href="#" data-menu-trigger>
