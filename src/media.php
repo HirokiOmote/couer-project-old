@@ -7,8 +7,8 @@ get_header();
   <header class="header">
     <h1>
       <picture>
-        <source media="min-width: 768px;" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/recruit/ttl_header@pc.svg">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/recruit/ttl_header@sp.svg" alt="採用情報">
+        <source media="min-width: 768px;" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/media/ttl_header@pc.svg">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/media/ttl_header@sp.svg" alt="メディア">
       </picture>
     </h1>
   </header>
