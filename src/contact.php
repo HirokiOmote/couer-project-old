@@ -19,6 +19,8 @@
         <p>INQUIRY FORM</p>
         <h2>お問い合わせフォーム</h2>
       </header>
+
+      <?php echo do_shortcode('[mwform_formkey key="91"]'); ?>
     </section>
 
     <section class="section-privacy">
