@@ -70,6 +70,8 @@
       ・各種ノウハウ提供</p>
 
       <ul>
+        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc001.png" alt="国内FC"></a></li>
+        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc002.png" alt="国外FC"></a></li>
         <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique001.png" alt="クールエステティック"></a></li>
       </ul>
 
@@ -177,7 +179,7 @@
     <section class="section-guide">
       <header>
         <p>OVERSEAS DIVISION</p>
-        <h2>コンサルティング事業部</h2>
+        <h2>海外事業部</h2>
       </header>
 
       <div class="icon">

@@ -14,7 +14,7 @@ $colors: #35318f, #0e6fa8, #456436, #805d27, #835b84, #bb5a41, #df6a70;
 
   @media screen and (min-width: 768px) {
     margin: 50px 0 100px;
-    padding: 0;
+    padding: 0 20px;
   }
 
   header {
@@ -51,6 +51,15 @@ $colors: #35318f, #0e6fa8, #456436, #805d27, #835b84, #bb5a41, #df6a70;
     border-top-width: 0;
   }
 
+  @media screen and (min-width: 1024px) {
+    width: 50%;
+
+    padding: {
+      left: 30px;
+      right: 30px;
+    }
+  }
+
   &-wrap {
     display: flex;
     flex-wrap: wrap;
@@ -60,6 +69,10 @@ $colors: #35318f, #0e6fa8, #456436, #805d27, #835b84, #bb5a41, #df6a70;
 
     @media screen and (min-width: 768px) {
       margin: 0 auto;
+    }
+
+    @media screen and (min-width: 1024px) {
+      justify-content: flex-start;
     }
   }
 

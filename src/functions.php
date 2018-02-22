@@ -90,13 +90,13 @@ if (!is_admin()) {
   }
 
 	function register_script(){
-		wp_register_script('GoogleMap', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBkHPZttXyhSToOpJm3tvcuMdthwVblXKw', null, null, true);
+		wp_register_script('GoogleMap', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAVduOE9gHIuvnRCT0zus53tT-HXR-Sn98', null, null, true);
 		wp_register_script('main', get_stylesheet_directory_uri() . '/js/main.js', array(), '', true);
 	}
 
 	function add_script() {
 		register_script();
-		// wp_enqueue_script('GoogleMap');
+		wp_enqueue_script('GoogleMap');
     wp_enqueue_script('main');
   }
 
@@ -138,7 +138,7 @@ function wp_pagination() {
 }
 
 function my_acf_init() {
-	acf_update_setting('google_api_key', 'AIzaSyBkHPZttXyhSToOpJm3tvcuMdthwVblXKw');
+	acf_update_setting('google_api_key', 'AIzaSyAVduOE9gHIuvnRCT0zus53tT-HXR-Sn98');
 }
 add_action('acf/init', 'my_acf_init');
 

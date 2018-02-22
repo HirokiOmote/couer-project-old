@@ -127,7 +127,7 @@
         これも地域の皆様のご愛顧、ご支援の賜物と感謝し、毎年6月第一月曜日を弊社グループの「ボランティア・デイ」と位置づけ、一企業市民として社会奉仕活動を実施しております。このCSR活動を通して「地域社会への貢献」、「社員のモラル向上」を図るとともに、「健康増進」にもつなげていきたいと考えております。<br>
         このたび、日頃身近にお世話になっております各店舗、各事業所の周辺地域の社会奉仕活動の一助にと、「環境美化清掃活動」、または「福祉施設へのエステサービス（訪問エステ）」を全社一丸となって行ないましたのでご報告申し上げます。</p>
         <div class="image">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/policy/img_social002.jpg" alt="">
+          <a href="https://www.coeur-esthetique.jp/volunteer/" target="_blank" rel="nofollow"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/policy/img_social002.jpg" alt=""></a>
         </div>
       </div>
     </section>

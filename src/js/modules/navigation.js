@@ -44,7 +44,6 @@ function navigation () {
       }
 
       timer = setTimeout(function () {
-        console.log('resized');
         init();
       }, 200);
     });

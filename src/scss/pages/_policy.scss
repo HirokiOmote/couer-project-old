@@ -163,18 +163,19 @@
     border-width: 0;
   }
 
-
   header {
     @extend %section-header;
   }
 
   ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 45px auto;
     max-width: 1140px;
 
     @media (min-width: 768px) {
-      display: flex;
-      flex-wrap: wrap;
+      justify-content: flex-start;
     }
   }
 

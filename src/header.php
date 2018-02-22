@@ -11,7 +11,7 @@
 
 <header class="global-header">
 	<div class="logo">
-		<img src="<?php echo get_stylesheet_directory_uri();?>/images/common/logo.svg" alt="クールプロジェクト">
+		<a href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri();?>/images/common/logo.svg" alt="クールプロジェクト"></a>
 	</div>
 
 	<a class="menu-trigger" href="#" data-menu-trigger>
@@ -43,9 +43,9 @@
 		</ul>
 
 		<ul class="lang-menu">
-			<li class="active"><a href="">日本語</a></li>
-			<li><a href="">中文</a></li>
-			<li><a href="">English</a></li>
+			<li class="active"><a>日本語</a></li>
+			<li><a>中文</a></li>
+			<li><a>English</a></li>
 		</ul>
 	</nav>
 </header>
