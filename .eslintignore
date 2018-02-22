@@ -6,3 +6,4 @@ package-lock.json
 postcss.config.js
 webpack.config.babel.js
 infiniteslidev2.js
+googlemap.js
