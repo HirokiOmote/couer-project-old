@@ -98,8 +98,13 @@ th {
   }
 
   .logo {
+    display: block;
     max-width: 227px;
     width: 55vw;
+
+    img {
+      width: 100%;
+    }
   }
 
   .menu-trigger,
@@ -299,17 +304,18 @@ th {
       left: 0;
       padding-top: 20px;
       width: 200px;
+      background-color: transparent;
 
       > li {
         a {
           display: block;
           padding: 1em;
-          background-color: #2151a2;
+          background-color: rgba(#2151a2, .75);
           color: #fff;
           font-size: 1.4rem;
 
           &:hover {
-            opacity: .7;
+            opacity: .8;
           }
         }
       }
