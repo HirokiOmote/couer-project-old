@@ -7,8 +7,9 @@ get_header();
   <header class="header">
     <h1>
       <picture>
-        <source media="min-width: 768px;" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/media/ttl_header@pc.svg">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/media/ttl_header@sp.svg" alt="メディア">
+        <source media="(min-width: 768px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/media/ttl_header@pc.svg">
+        <source media="(min-width: 320px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/media/ttl_header@sp.svg">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/media/ttl_header@pc.svg" alt="メディア">
       </picture>
     </h1>
   </header>
@@ -28,6 +29,7 @@ get_header();
       ?>
         <ul class="gallery-8column">
           <?php foreach( $images as $image ): ?>
+            <?php var_dump($image); ?>
             <li>
               <a href="<?php echo $image['description']; ?>">
                 <figure>
@@ -41,6 +43,7 @@ get_header();
       <?php elseif ( $images && $column == 5 ): ?>
         <ul class="gallery-5column">
           <?php foreach( $images as $image ): ?>
+            <?php var_dump($image); ?>
             <li>
               <a href="<?php echo $image['description']; ?>">
                 <figure>

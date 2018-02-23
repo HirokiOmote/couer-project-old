@@ -7,8 +7,9 @@
   <header class="header">
     <h1>
       <picture>
-        <source media="min-width: 768px;" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/profile/ttl_header@pc.svg">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/profile/ttl_header@sp.svg" alt="会社情報">
+        <source media="(min-width: 768px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/profile/ttl_header@pc.svg">
+        <source media="(min-width: 320px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/profile/ttl_header@sp.svg">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/profile/ttl_header@pc.svg" alt="会社情報">
       </picture>
     </h1>
   </header>
@@ -401,20 +402,20 @@
       <p>株式会社クールプロジェクトが権利を有する<br>登録商標です。</p>
 
       <ul>
-        <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_coeur_project.svg" alt=""></a></li>
-        <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_coeur_grandbody.svg" alt=""></a></li>
-        <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_coeur_grandbody02.svg" alt=""></a></li>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_jbm.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_jbm@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_jbm.png" alt=""></a></li>
-        <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_dr_caviet.svg" alt=""></a></li>
-        <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_the_zeur.svg" alt=""></a></li>
-        <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_beaute_de_coeur.svg" alt=""></a></li>
-        <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_pico_connna.svg" alt=""></a></li>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_kokosere.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_kokosere@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_kokosere.png" alt=""></a></li>
-        <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_air_resh.svg" alt=""></a></li>
-        <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_dhs.svg" alt=""></a></li>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon.png" alt=""></a></li>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon002.png" alt=""></a></li>
-        <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_coeur_project.svg" alt=""></a></li>
+        <li><a href="https://www.coeur-esthetique.jp/" target="_blank" rel="nofollow"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_coeur_esthetique.svg" alt="クールエステティック"></a></li>
+        <li><a href="https://www.coeur-esthetique.jp/" target="_blank" rel="nofollow"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_coeur_grandbody.svg" alt="クールグランボディ"></a></li>
+        <li><a href="https://www.coeur-esthetique.jp/" target="_blank" rel="nofollow"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_coeur_grandbody02.svg" alt="クールグランボディ"></a></li>
+        <li><a href="http://www.jb-m.jp/" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_jbm.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_jbm@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_jbm.png" alt="JBマシナリー"></a></li>
+        <li><a><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_dr_caviet.svg" alt="DR.Caviet"></a></li>
+        <li><a><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_the_zeur.svg" alt="the Zuer"></a></li>
+        <li><a href="http://www.jb-m.jp/beaute.html" target="_blank" rel="nofollow"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_beaute_de_coeur.svg" alt="BEAUTE De Coeur"></a></li>
+        <li><a href="http://www.jb-m.jp/picodonna.html" target="_blank" rel="nofollow"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_pico_connna.svg" alt="Pico Donna"></a></li>
+        <li><a href="http://www.cocosele.jp/" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_kokosere.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_kokosere@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_kokosere.png" alt="ココセレ"></a></li>
+        <li><a><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_air_resh.svg" alt="Air Resh"></a></li>
+        <li><a><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_dhs.svg" alt="DHS"></a></li>
+        <li><a><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon.png" alt="Couer China"></a></li>
+        <li><a><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon002.png" alt="Couer China"></a></li>
+        <li><a href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_coeur_project.svg" alt="クールプロジェクト"></a></li>
       </ul>
     </section>
 

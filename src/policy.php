@@ -7,8 +7,9 @@
   <header class="header">
     <h1>
       <picture>
-        <source media="min-width: 768px;" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/policy/ttl_header@pc.svg">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/policy/ttl_header@sp.svg" alt="会社情報">
+        <source media="(min-width: 768px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/policy/ttl_header@pc.svg">
+        <source media="(min-width: 320px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/policy/ttl_header@sp.svg">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/policy/ttl_header@pc.svg" alt="企業理念">
       </picture>
     </h1>
   </header>
@@ -109,7 +110,7 @@
       <?php endif; ?>
     </section>
 
-    <section class="section-social">
+    <section class="section-social" id="social">
       <header>
         <p>SOCIAL CONTRIBUTION</p>
         <h2>社会貢献</h2>

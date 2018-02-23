@@ -7,8 +7,9 @@
   <header class="header">
     <h1>
       <picture>
-        <source media="min-width: 768px;" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/ttl_header@pc.svg">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/ttl_header@sp.svg" alt="採用情報">
+        <source media="(min-width: 768px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/ttl_header@pc.svg">
+        <source media="(min-width: 320px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/ttl_header@sp.svg">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/ttl_header@pc.svg" alt="事業案内">
       </picture>
     </h1>
   </header>
@@ -24,7 +25,7 @@
     </figure>
   </section>
 
-  <div class="section-guide-wrap">
+  <div class="section-guide-wrap" id="esthetique">
     <section class="section-guide">
       <header>
         <p>ESTHETIQUE DIVISION</p>
@@ -44,15 +45,15 @@
       石川県、富山県、福井県にて７サロンを展開中。</p>
 
       <ul>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique001.png" alt="クールエステティック"></a></li>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique002.png" alt="クールエステティック"></a></li>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique003.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique003@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique003.png" alt="クールエステティック"></a></li>
+        <li><a href="https://www.coeur-esthetique.jp/" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique001.png" alt="クールエステティック"></a></li>
+        <li><a href="https://www.coeur-esthetique.jp/" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique002.png" alt="クールエステティック"></a></li>
+        <li><a href="https://www.coeur-esthetique.jp/" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique003.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique003@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique003.png" alt="クールエステティック"></a></li>
       </ul>
 
       <p class="txt-note">※ロゴマークをクリック(タップ)で詳細ページにリンクします。</p>
     </section>
 
-    <section class="section-guide">
+    <section class="section-guide" id="fc">
       <header>
         <p>FRANCHISE DIVISION</p>
         <h2>フランチャイズ事業部</h2>
@@ -70,15 +71,15 @@
       ・各種ノウハウ提供</p>
 
       <ul>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc001.png" alt="国内FC"></a></li>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc002.png" alt="国外FC"></a></li>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique001.png" alt="クールエステティック"></a></li>
+        <li><a><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc001.png" alt="国内FC"></a></li>
+        <li><a><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_fc002.png" alt="国外FC"></a></li>
+        <li><a href="https://www.coeur-esthetique.jp/" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_esthetique001.png" alt="クールエステティック"></a></li>
       </ul>
 
       <p class="txt-note">※ロゴマークをクリック(タップ)で詳細ページにリンクします。</p>
     </section>
 
-    <section class="section-guide">
+    <section class="section-guide" id="consulting">
       <header>
         <p>CONSULTING DIVISION</p>
         <h2>コンサルティング事業部</h2>
@@ -96,15 +97,15 @@
       ＊クールムービー（幹部会議・新人研修等の生動画）配信サイト運営</p>
 
       <ul>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting001.png" alt="茂東塾"></a></li>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting002.png" alt="光脱毛テクニックセミナー"></a></li>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting003.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting003@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting003.png" alt="クールムービー"></a></li>
+        <li><a href="http://www.jb-m.jp/motojuku.html" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting001.png" alt="茂東塾"></a></li>
+        <li><a><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting002.png" alt="光脱毛テクニックセミナー"></a></li>
+        <li><a href="https://coeur-movie.jp/" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting003.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting003@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting003.png" alt="クールムービー"></a></li>
       </ul>
 
       <p class="txt-note">※ロゴマークをクリック(タップ)で詳細ページにリンクします。</p>
     </section>
 
-    <section class="section-guide">
+    <section class="section-guide" id="products">
       <header>
         <p>BEAUTY PRODUCTS DIVISION</p>
         <h2>ビューティプロダクツ事業部</h2>
@@ -122,17 +123,17 @@
       　国内外のサロンにOEM化粧品を展開</p>
 
       <ul class="half-list">
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products001.png" alt="J.Bマシナリー"></a></li>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products002.png" alt="BEUTE e Couer"></a></li>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products003.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products003@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products003.png" alt="Pico Donna"></a></li>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products004.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products004@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products004.png" alt="NUDIST"></a></li>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products005.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products005@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products005.png" alt="et series"></a></li>
+        <li><a href="http://www.jb-m.jp/" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products001.png" alt="J.Bマシナリー"></a></li>
+        <li><a href="http://www.jb-m.jp/beaute.html" target="_blank" rel="nofollow" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products002.png" alt="BEUTE e Couer"></a></li>
+        <li><a href="http://www.jb-m.jp/picodonna.html" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products003.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products003@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products003.png" alt="Pico Donna"></a></li>
+        <li><a href="http://www.jb-m.jp/nudist.html" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products004.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products004@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products004.png" alt="NUDIST"></a></li>
+        <li><a href="http://www.jb-m.jp/et.html" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products005.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products005@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_products005.png" alt="et series"></a></li>
       </ul>
 
       <p class="txt-note">※ロゴマークをクリック(タップ)で詳細ページにリンクします。</p>
     </section>
 
-    <section class="section-guide">
+    <section class="section-guide" id="ec">
       <header>
         <p>E-COMMERCE DIVISION</p>
         <h2>eコマース事業部</h2>
@@ -149,14 +150,14 @@
       プロの方向けの美容機器＆化粧品＆サプリメント等、業務用商材をサロン特別価格で販売するBtoBサイト。</p>
 
       <ul class="half-list">
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_ec001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_ec001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_ec001.png" alt="ココセレ"></a></li>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_ec002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_ec002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_ec002.png" alt="BtoB"></a></li>
+        <li><a href="http://www.cocosele.jp/" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_ec001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_ec001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_ec001.png" alt="ココセレ"></a></li>
+        <li><a href="http://jbm-shop.jp/" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_ec002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_ec002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_ec002.png" alt="BtoB"></a></li>
       </ul>
 
       <p class="txt-note">※ロゴマークをクリック(タップ)で詳細ページにリンクします。</p>
     </section>
 
-    <section class="section-guide">
+    <section class="section-guide" id="bio">
       <header>
         <p>BIO HEALTH DIVISION</p>
         <h2>バイオヘルス事業部</h2>
@@ -170,13 +171,13 @@
       バイオ”冬虫夏草”サプリメントは、美力、体力、健康力をサポートしてくれます。</p>
 
       <ul>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_bio001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_bio001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_bio001.png" alt="茂東塾"></a></li>
+        <li><a href="http://hokuchuso.jp/" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_bio001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_bio001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_bio001.png" alt="茂東塾"></a></li>
       </ul>
 
       <p class="txt-note">※ロゴマークをクリック(タップ)で詳細ページにリンクします。</p>
     </section>
 
-    <section class="section-guide">
+    <section class="section-guide" id="overseas">
       <header>
         <p>OVERSEAS DIVISION</p>
         <h2>海外事業部</h2>
@@ -189,8 +190,8 @@
       <p>＊海外の美容事業者向け、クールエステティック流エステティックセミナーを国内外にて開催、運営</p>
 
       <ul class="half-list">
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas001.png" alt="茂東塾"></a></li>
-        <li><a href=""><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas002.png" alt="光脱毛テクニックセミナー"></a></li>
+        <li><a><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas001.png" alt="茂東塾"></a></li>
+        <li><a><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas002.png" alt="光脱毛テクニックセミナー"></a></li>
       </ul>
 
       <p class="txt-note">※ロゴマークをクリック(タップ)で詳細ページにリンクします。</p>

@@ -1,47 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="32" viewBox="0 0 125 32">
-  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <rdf:Description rdf:about=""/>
-   </rdf:RDF>
-</x:xmpmeta>
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                           
-<?xpacket end="w"?></metadata>
-<defs>
-    <style>
-      .cls-1 {
-        fill: #fff;
-        fill-rule: evenodd;
-        filter: url(#filter);
-      }
-    </style>
-    <filter id="filter" x="99" y="140" width="125" height="32" filterUnits="userSpaceOnUse">
-      <feOffset result="offset" in="SourceAlpha"/>
-      <feGaussianBlur result="blur" stdDeviation="2.236"/>
-      <feFlood result="flood" flood-opacity="0.75"/>
-      <feComposite result="composite" operator="in" in2="blur"/>
-      <feBlend result="blend" in="SourceGraphic"/>
-    </filter>
-  </defs>
-  <path id="ttl_header_sp.svg" data-name="ttl_header@sp.svg" class="cls-1" d="M123.058,160.128a42.991,42.991,0,0,0-5.088-4.9,51.043,51.043,0,0,0,4.224-8.713l-2.472-.7a40.069,40.069,0,0,1-3.577,7.993,41.738,41.738,0,0,0-7.248-4.344l-1.32,1.656a57.408,57.408,0,0,1,7.272,4.68,25.333,25.333,0,0,1-10.993,8.473l1.3,1.752a30.818,30.818,0,0,0,11.425-8.809,46.312,46.312,0,0,1,4.7,4.561ZM137.6,146.4v1.945H151.57V146.4H137.6Zm-2.161,6.217v2.016h9.673c0.144,6.841-2.856,8.689-8.377,9.745l0.889,1.92c6.36-1.3,9.72-4.2,9.768-11.665h8.065v-2.016H135.44Zm19.058-4.608a14.63,14.63,0,0,0-1.152-3.5l-1.512.384a15.533,15.533,0,0,1,1.08,3.5Zm2.64-.409a17.8,17.8,0,0,0-1.272-3.5l-1.416.432a21.721,21.721,0,0,1,1.224,3.553Zm21.623,8.473a52.7,52.7,0,0,0,5.377-5.064l-1.8-1.3a29.563,29.563,0,0,1-14.161,9.865l0.984,1.752a27.494,27.494,0,0,0,7.56-3.769v8.857h2.04V156.071Zm18.887-9.7v2.041h17.5c-1.056,3.432-3.144,5.04-6.025,6.24l1.392,1.776c3.337-1.68,6.553-4.1,7.513-10.057H197.648Zm2.185,19.634c7.608-3.72,8.16-9.793,8.3-15.121l-2.352-.024c-0.072,6.288-1.128,10.825-7.369,13.417Z" transform="translate(-99 -140)"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="28px" viewBox="0 0 104 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>メディア</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.38,17.94 L18.9,19.32 C18.04,18.38 16.84,17.08 14.98,15.52 C12.54,18.76 9.12,21.08 5.46,22.86 L4.38,21.4 C8.02,19.92 11.22,17.52 13.54,14.34 C11.16,12.5 8.9,11.24 7.48,10.44 L8.58,9.06 C9.88,9.68 12.08,10.78 14.62,12.68 C16.02,10.38 16.88,8.1 17.6,6.02 L19.66,6.6 C18.7,9 17.6,11.6 16.14,13.86 C18.3,15.62 19.62,17.1 20.38,17.94 Z M32.4687505,6.5 L44.1087505,6.5 L44.1087505,8.12 L32.4687505,8.12 L32.4687505,6.5 Z M30.6687505,11.68 L47.3487505,11.68 L47.3487505,13.36 L40.6287505,13.36 C40.5887505,19.58 37.7887505,22 32.4887505,23.08 L31.7487505,21.48 C36.3487505,20.6 38.8487505,19.06 38.7287505,13.36 L30.6687505,13.36 L30.6687505,11.68 Z M46.5487505,7.84 L45.2287505,8.16 C45.0287505,7.18 44.7687505,6.18 44.3287505,5.24 L45.5887505,4.92 C46.0287505,5.84 46.3487505,6.82 46.5487505,7.84 Z M48.7487505,7.5 L47.5287505,7.9 C47.1287505,6.5 46.9887505,6.02 46.5087505,4.94 L47.6887505,4.58 C48.1287505,5.4 48.5687505,6.76 48.7487505,7.5 Z M66.737501,14.56 L66.737501,23.18 L65.037501,23.18 L65.037501,15.8 C62.877501,17.26 61.197501,18.14 58.737501,18.94 L57.917501,17.48 C63.537501,15.56 67.357501,12.36 69.717501,9.26 L71.217501,10.34 C69.357501,12.26 68.377501,13.24 66.737501,14.56 Z M82.4462514,6.48 L99.4262514,6.48 C98.6262514,11.44 95.9462514,13.46 93.1662514,14.86 L92.0062514,13.38 C94.4062514,12.38 96.1462514,11.04 97.0262514,8.18 L82.4462514,8.18 L82.4462514,6.48 Z M84.2662514,22.84 L83.0862514,21.4 C88.2862514,19.24 89.1662514,15.46 89.2262514,10.22 L91.1862514,10.24 C91.0662514,14.68 90.6062514,19.74 84.2662514,22.84 Z" id="path-1"></path>
+        <filter x="-7.9%" y="-40.3%" width="115.8%" height="180.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.75 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="メディア">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+    </g>
 </svg>

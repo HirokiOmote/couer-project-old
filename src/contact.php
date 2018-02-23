@@ -7,8 +7,9 @@
   <header class="header">
     <h1>
       <picture>
-        <source media="min-width: 768px;" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/contact/ttl_header@pc.svg">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/contact/ttl_header@sp.svg" alt="採用情報">
+        <source media="(min-width: 768px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/contact/ttl_header@pc.svg">
+        <source media="(min-width: 320px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/contact/ttl_header@sp.svg">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/contact/ttl_header@pc.svg" alt="採用情報">
       </picture>
     </h1>
   </header>
@@ -25,8 +26,8 @@
 
     <section class="section-privacy">
       <header>
-        <p>プライバシーポリシー</p>
-        <h2>PRIVACY POLICY</h2>
+        <p>PRIVACY POLICY</p>
+        <h2>プライバシーポリシー</h2>
       </header>
 
       <p>株式会社 クールプロジェクト（以下「当社」）は、以下のとおり個人情報保護方針を定め、個人情報保護の仕組みを構築し、全従業員に個人情報保護の重要性の認識と取組みを徹底させることにより、個人情報の保護を推進致します。</p>

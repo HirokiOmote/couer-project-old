@@ -10,9 +10,7 @@
 <body <?php body_class(); ?>>
 
 <header class="global-header">
-	<div class="logo">
-		<a href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri();?>/images/common/logo.svg" alt="クールプロジェクト"></a>
-	</div>
+	<a class="logo" href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri();?>/images/common/logo.svg" alt="クールプロジェクト"></a>
 
 	<a class="menu-trigger" href="#" data-menu-trigger>
 	  <span></span>
