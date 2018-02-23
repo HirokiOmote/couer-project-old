@@ -11,7 +11,8 @@ module.exports = {
   },
   extends: 'standard',
   plugins: [
-    'html'
+    'html',
+    'jquery'
   ],
   'rules': {
     'arrow-parens': 0,
