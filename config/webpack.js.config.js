@@ -21,6 +21,10 @@ export default {
   cache : true,
 
   plugins: [
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery"
+    }),
     new webpack.optimize.UglifyJsPlugin({
       compressor: {
         warnings: false
