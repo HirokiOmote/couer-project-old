@@ -140,11 +140,11 @@
                   </tr>
                   <tr>
                     <th>本社所在地</th>
-                    <td>〒933-0014 富山県高岡市野村1536-17 アーバンビル2F</td>
+                    <td>〒921-8801 石川県野々市市御経塚1-442 クールビル</td>
                   </tr>
                   <tr>
                     <th>電話/FAX</th>
-                    <td>Tel.0766-28-8623 Fax.0766-28-8624</td>
+                    <td>Tel.076-246-5003 Fax.076-246-5004</td>
                   </tr>
                   <tr>
                     <th>設　立</th>
@@ -152,7 +152,7 @@
                   </tr>
                   <tr>
                     <th>店舗</th>
-                    <td>クールエステティック高岡店</td>
+                    <td>クールエステティック金沢店<br>クールフェイシャルボーテ金沢店</td>
                   </tr>
                 </tbody>
               </table>
@@ -339,7 +339,7 @@
           </tr>
           <tr>
             <th>2012年09月</th>
-            <td>クールエステティック富山・市民プラザ店 2倍増床リニューアルOPEN  ANNEX誕生</td>
+            <td>クールエステティック富山・市民プラザ店 増床リニューアルOPEN  ANNEX誕生</td>
           </tr>
           <tr>
             <th>2013年05月</th>
@@ -406,8 +406,8 @@
         <li><a href="https://www.coeur-esthetique.jp/" target="_blank" rel="nofollow"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_coeur_grandbody.svg" alt="クールグランボディ"></a></li>
         <li><a href="https://www.coeur-esthetique.jp/" target="_blank" rel="nofollow"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_coeur_grandbody02.svg" alt="クールグランボディ"></a></li>
         <li><a href="http://www.jb-m.jp/" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_jbm.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_jbm@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_jbm.png" alt="JBマシナリー"></a></li>
-        <li><a><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_dr_caviet.svg" alt="DR.Caviet"></a></li>
-        <li><a><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_the_zeur.svg" alt="the Zuer"></a></li>
+        <li><a href="http://www.jb-m.jp/cavietghostplus.html" target="_blank" rel="nofollow"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_dr_caviet.svg" alt="DR.Caviet"></a></li>
+        <li><a href="http://www.jb-m.jp/zeus.html" target="_blank" rel="nofollow"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_the_zeur.svg" alt="the Zuer"></a></li>
         <li><a href="http://www.jb-m.jp/beaute.html" target="_blank" rel="nofollow"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_beaute_de_coeur.svg" alt="BEAUTE De Coeur"></a></li>
         <li><a href="http://www.jb-m.jp/picodonna.html" target="_blank" rel="nofollow"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_pico_connna.svg" alt="Pico Donna"></a></li>
         <li><a href="http://www.cocosele.jp/" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_kokosere.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_kokosere@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_kokosere.png" alt="ココセレ"></a></li>
@@ -415,15 +415,15 @@
         <li><a><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_dhs.svg" alt="DHS"></a></li>
         <li><a><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon.png" alt="Couer China"></a></li>
         <li><a><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon002.png" alt="Couer China"></a></li>
-        <li><a href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_coeur_project.svg" alt="クールプロジェクト"></a></li>
+        <li><a href="<?php echo home_url(); ?>" href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/common/logo.svg" alt="クールプロジェクト"></a></li>
       </ul>
     </section>
 
     <div class="footer-slide">
       <ul>
+        <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/profile/img_slide003.jpg" alt=""></li>
         <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/profile/img_slide001.jpg" alt=""></li>
         <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/profile/img_slide002.jpg" alt=""></li>
-        <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/profile/img_slide003.jpg" alt=""></li>
         <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/profile/img_slide004.jpg" alt=""></li>
         <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/profile/img_slide005.jpg" alt=""></li>
         <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/profile/img_slide006.jpg" alt=""></li>

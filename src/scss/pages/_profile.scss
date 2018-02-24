@@ -106,18 +106,21 @@
 }
 
 .footer-slide {
-  display: none;
-  padding-top: 10px;
+  padding-top: 50px;
 
-  @media (min-width: 1024px) {
-    display: block;
+  @media (min-width: 768px) {
+    padding-top: 10px;
   }
 
   ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   li {
-    margin: 0 3px;
+    max-width: 50%;
+    padding: 3px;
+    line-height: 0;
   }
 }
