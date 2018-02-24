@@ -10,9 +10,6 @@
         <p>〒921-8802 石川県野々市市押野1丁目380番地<br>（お問い合わせ時間：平日10:00〜17:00）<br>Tel.076-246-5111　Fax.076-246-5113</p>
         <p><b>エステティック事業部</b><br><b>FC（フランチャイズ）事業部</b><br><b>コンサルティング事業部</b><br>Tel.076-246-5111　Fax.076-246-5113</p>
         <p><b>ビューティプロダクツ事業部</b><br>■ディーラーグループ■OEMグループ■PBグループ<br>Tel.076-246-2060　Fax.076-246-2061</p>
-        <p>■クールエステティック・ビューティショップ名古屋<br>
-        （営業時間：10:00〜20:00）<br>
-        〒460-0008 名古屋市中区栄3-3-1　丸栄百貨店3ＦTel.＆Fax.052-264-6295</p>
         <p><b>JBマシナリー ブランドチーム</b><br>Free.0120-00-7980　Tel.076-248-2700　Fax.076-248-2730</p>
         <p><b>eコマース事業部</b><br>ココセレ<br>Free.0120-072-700　Tel.076-246-2060　Fax.076-246-2061<br>BtoBオンラインショップ<br>Free.0120-00-7980　Tel.076-248-2700　Fax.076-248-2730</p>
         <p><b>バイオヘルス事業部</b><br>Free.0120-20-3400　Tel.076-246-8803　Fax.076-246-8805</p>
@@ -54,7 +51,7 @@
     </li>
   </ul>
 
-  <p class="copyright"><small>Copyright (C) 2012 - <?php the_time('Y'); ?> Coeur Project. All Rights Reserved.</small></p>
+  <p class="copyright"><small>Copyright (C) 2002 - <?php the_time('Y'); ?> Coeur Project. All Rights Reserved.</small></p>
 </footer>
 
 <?php wp_footer(); ?>
