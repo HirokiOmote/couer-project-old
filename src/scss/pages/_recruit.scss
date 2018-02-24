@@ -7,16 +7,32 @@
 }
 
 .section-recruit {
-  margin: 0 10px;
+  margin: 0 3vw;
   padding: 40px 0 48px;
-  border-top: 1px dotted #888;
+  max-width: 1140px;
+
+  &:not(:first-of-type) {
+    border-top: 1px dotted #888;
+  }
 
   @media screen and (min-width: 768px) {
-    border-width: 0;
+    padding: 60px 0;
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding: 80px 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin: 0 auto;
   }
 
   header {
     @extend %section-header;
+
+    p {
+      margin-top: 0;
+    }
 
     &::after {
       display: inline-block;
