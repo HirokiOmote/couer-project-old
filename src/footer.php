@@ -51,7 +51,7 @@
     </li>
   </ul>
 
-  <p class="copyright"><small>Copyright (C) 2002 - <?php the_time('Y'); ?> Coeur Project. All Rights Reserved.</small></p>
+  <p class="copyright"><small>Copyright (C) 2002 - <?php echo date('Y'); ?> Coeur Project. All Rights Reserved.</small></p>
 </footer>
 
 <?php wp_footer(); ?>
