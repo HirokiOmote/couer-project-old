@@ -30,7 +30,7 @@ get_header();
         <ul class="gallery-8column">
           <?php foreach( $images as $image ): ?>
             <li>
-              <a href="<?php echo $image['description']; ?>">
+              <a href="<?php echo $image['description']; ?>" target="_blank">
                 <figure>
                   <img src="<?php echo $image['sizes']['media_thumbnail_8column']; ?>" alt="<?php echo $image['alt']; ?>" />
                   <figcaption><?php echo $image['caption']; ?></figcaption>
@@ -43,7 +43,7 @@ get_header();
         <ul class="gallery-5column">
           <?php foreach( $images as $image ): ?>
             <li>
-              <a href="<?php echo $image['description']; ?>">
+              <a href="<?php echo $image['description']; ?>" target="_blank">
                 <figure>
                   <img src="<?php echo $image['sizes']['media_thumbnail_5column']; ?>" alt="<?php echo $image['alt']; ?>" />
                   <figcaption><?php echo $image['caption']; ?></figcaption>
