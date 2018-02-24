@@ -1,0 +1,40 @@
+@import "./common";
+
+.single-pagination {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 40px;
+
+  a {
+    padding: .5em 1em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+
+    @media (min-width: 768px) {
+      font-size: 1.2rem;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 1.4rem;
+    }
+
+    &:hover {
+      opacity: .7;
+    }
+
+    &.prev {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    &.next {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}

@@ -12,7 +12,13 @@ get_header();
         </header>
 
         <div class="content">
-          <?php the_content(); ?>
+          <?php the_excerpt(); ?>
+        </div>
+
+        <div class="btn-more-wrap">
+          <a class="btn-more" href="<?php the_permalink(); ?>">
+            続きを読む
+          </a>
         </div>
       </article>
     <?php endwhile; ?>

@@ -53,7 +53,9 @@ add_action( 'admin_footer-post.php', 'media_uploader_default_view' );
 
 // サムネイル画像
 add_theme_support( 'post-thumbnails' );
-set_post_thumbnail_size( 180, 180 );
+set_post_thumbnail_size( 750, 421, true );
+add_image_size( 'topics_thumbnail', 240, 240, true );
+add_image_size( 'policy_thumbnail', 289, 396 );
 add_image_size( 'media_thumbnail_5column', 143, 143 );
 add_image_size( 'media_thumbnail_8column', 216, 216 );
 add_image_size( 'archive_main', 1200, 675 );
@@ -142,50 +144,12 @@ function my_acf_init() {
 }
 add_action('acf/init', 'my_acf_init');
 
-//Custom Post
-function works() {
-	$labels = array(
-		'name' => 'Works',
-		'singular_name' => 'プロジェクト',
-		'add_new_item' => 'プロジェクトを追加',
-		'add_new' => 'プロジェクトを追加',
-		'new_item' => 'プロジェクト',
-		'view_item' => 'プロジェクト一覧を表示',
-		'not_found' => 'プロジェクトは見つかりませんでした',
-		'not_found_in_trash' => 'プロジェクトはありません。',
-		'search_items' => 'プロジェクトを検索'
-	);
-	$args = array(
-		'labels' => $labels,
-		'public' => true,
-		'has_archive' => true,
-		'show_ui' => true,
-		'query_var' => true,
-		'rewrite' => true,
-		'capability_type' => 'post',
-		'hierarchical' => true,
-		'menu_position' => 5,
-		'slug' => 'works',
-		'supports' => array('title', 'editor', 'thumbnail')
-	);
-	register_post_type('works', $args);
-	flush_rewrite_rules( false );
-}
-add_action('init', 'works');
-
 function change_posts_per_page($query) {
-    if ( is_admin() || ! $query->is_main_query() )
-        return;
+  if ( is_admin() || ! $query->is_main_query() ) return;
+
 	if ( is_home() ) {
 		$query->set( 'posts_per_page', '5' );
 	}
-	if ( $query->is_page('works') ) {
-		$query->set( 'post_type', 'works' );
-        $query->set( 'posts_per_page', '49' );
-    }
-    if ( $query->is_post_type_archive( array('works') ) ) {
-        $query->set( 'posts_per_page', '49' );
-    }
 }
 add_action( 'pre_get_posts', 'change_posts_per_page' );
 

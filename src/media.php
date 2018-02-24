@@ -29,7 +29,6 @@ get_header();
       ?>
         <ul class="gallery-8column">
           <?php foreach( $images as $image ): ?>
-            <?php var_dump($image); ?>
             <li>
               <a href="<?php echo $image['description']; ?>">
                 <figure>
@@ -43,7 +42,6 @@ get_header();
       <?php elseif ( $images && $column == 5 ): ?>
         <ul class="gallery-5column">
           <?php foreach( $images as $image ): ?>
-            <?php var_dump($image); ?>
             <li>
               <a href="<?php echo $image['description']; ?>">
                 <figure>

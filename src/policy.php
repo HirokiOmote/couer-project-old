@@ -92,20 +92,19 @@
         <h2>取材記事</h2>
       </header>
 
-      <?php if ( have_rows('pdf-links') ):  ?>
+      <?php
+        $images = get_field('gallery');
+        if ( $images ):
+      ?>
         <ul>
-          <?php while ( have_rows('pdf-links') ): the_row(); ?>
-            <?php
-              $image = get_sub_field('image');
-              $pdf = get_sub_field('pdf');
-            ?>
-              <li>
-                <a href="<?php echo $pdf['url']; ?>" target="_blank">
-                  <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>">
-                  <p><?php echo $image['caption']; ?></p>
-                </a>
-              </li>
-          <?php endwhile; ?>
+          <?php foreach( $images as $image ): ?>
+            <li>
+              <a href="<?php echo $image['description'] ?>" target="_blank">
+                <img src="<?php echo $image['sizes']['policy_thumbnail']; ?>" alt="<?php echo $image['alt']; ?>">
+                <p><?php echo $image['caption']; ?></p>
+              </a>
+            </li>
+          <?php endforeach; ?>
         </ul>
       <?php endif; ?>
     </section>

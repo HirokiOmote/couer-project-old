@@ -349,10 +349,25 @@
       display: block;
     }
 
-    time {
-      display: block;
-      margin-top: .5em;
-      font-weight: 600;
+    header {
+      margin: 10px 0 5px;
+
+      h3,
+      p {
+        margin: 0;
+        text-align: left;
+      }
+
+      h3 {
+        display: block;
+        margin-top: .5em;
+        font-weight: 600;
+        line-height: 1.2;
+      }
+
+      p {
+        font-size: .9em;
+      }
     }
   }
 

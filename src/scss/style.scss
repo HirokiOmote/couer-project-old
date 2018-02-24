@@ -24,6 +24,12 @@ Version:        1.00
   @import "pages/front-page";
 }
 
+.archive,
+.single,
+.blog {
+  @import "post/single";
+}
+
 .policy {
   @import "pages/policy";
 }

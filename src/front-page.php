@@ -1,3 +1,8 @@
+<?php
+get_header();
+// Template Name: トップページ
+?>
+
 <?php get_header(); ?>
 
 <video class="bg-video" autoplay muted loop>
@@ -118,16 +123,21 @@
     <p>クールグループのトピックス</p>
   </header>
 
-  <ul data-infinite-slide>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics001.png" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics002.png" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics003.png" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics004.png" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics005.png" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics007.jpg" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics008.jpg" alt=""></a></li>
-    <li><a href=""><img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_topics009.jpg" alt=""></a></li>
-  </ul>
+  <?php
+    $images = get_field('gallery');
+    if ( $images ):
+  ?>
+    <ul data-infinite-slide>
+      <?php foreach( $images as $image ): ?>
+        <li>
+          <a href="<?php echo $image['description'] ?>" target="_blank">
+            <img src="<?php echo $image['sizes']['policy_thumbnail']; ?>" alt="<?php echo $image['alt']; ?>">
+            <p><?php echo $image['caption']; ?></p>
+          </a>
+        </li>
+      <?php endforeach; ?>
+    </ul>
+  <?php endif; ?>
 </section>
 
 <section class="sec-new" data-aos="fade">
@@ -136,59 +146,34 @@
     <p>最新情報</p>
   </header>
 
-  <ul class="slick" data-top-news>
-    <li>
-      <a class="sec-new-post-link" href="">
-        <div class="sec-new-post">
-          <img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_001.jpg" alt="">
-          <p><time>2017.08.28</time></p>
-          <p>クールプロジェクトはビューティーワールドジャパン大阪2017（10/16～10/18インテックス大阪会場）に出展します。</p>
-        </div>
-      </a>
-    </li>
+  <?php
+    $args = array (
+      'post_type' => 'post',
+      'posts_per_page' => 10
+    );
+    $the_query = new WP_Query( $args );
+  ?>
 
-    <li>
-      <a class="sec-new-post-link" href="">
-        <div class="sec-new-post">
-          <img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_002.jpg" alt="">
-          <p><time>2017.08.21</time></p>
-          <p>クールプロジェクトは中国(広州）国際美博会（9/3～9/5）に出展しました。</p>
-        </div>
-      </a>
-    </li>
+  <?php if ( $the_query->have_posts() ): ?>
+    <ul class="slick" data-top-news>
+  		<?php while ( $the_query->have_posts() ): $the_query->the_post(); ?>
+        <li>
+          <a class="sec-new-post-link" href="<?php the_permalink(); ?>">
+            <section class="sec-new-post">
+              <?php the_post_thumbnail('topics_thumbnail'); ?>
+              <header>
+                <h3><?php the_title(); ?></h3>
+                <p><time datetime="the_time('Y-m-d');"><?php the_time('Y.m.d'); ?></time></p>
+              </header>
+              <p><?php the_excerpt(); ?></p>
+            </section>
+          </a>
+        </li>
+      <?php endwhile; ?>
+    </ul>
+  <?php endif; ?>
 
-    <li>
-      <a class="sec-new-post-link" href="">
-        <div class="sec-new-post">
-          <img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_003.jpg" alt="">
-          <p><time>2017.06.05</time></p>
-          <p>クールエステティックグループは毎年6月第1週目に「ボランティアデイ」を設け、企業市民として、身近にお世話になっております各店の…</p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a class="sec-new-post-link" href="">
-        <div class="sec-new-post">
-          <img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_004.jpg" alt="">
-          <p><time>2017.05.17</time></p>
-          <p>JBマシナリー事業部＆コンサルティング事業部は、ビューティーワールドジャパン東京(2017.5.15～5.17東京ビックサイト)に出…</p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a class="sec-new-post-link" href="">
-        <div class="sec-new-post">
-          <img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/dummy/img_005.jpg" alt="">
-          <p><time>2017.04.10</time></p>
-          <p>弊社東京支社移転のご案内です。</p>
-        </div>
-      </a>
-    </li>
-  </ul>
-
-  <a class="sec-new-btn" href="">
+  <a class="sec-new-btn" href="<?php echo home_url('/news/') ?>">
     <img src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/btn_news.svg" alt="READ MORE">
   </a>
 </section>
