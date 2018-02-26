@@ -38,7 +38,11 @@
       <p>私たちは、これら4つのワードを指針に、自らの手によってエステティックの新しい時代を創造し続けます。</p>
 
       <div class="image">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/policy/img_guideline.png" alt="">
+        <picture>
+          <source media="(min-width: 768px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/policy/img_guideline@pc.png">
+          <source media="(min-width: 320px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/policy/img_guideline@sp.png">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/policy/img_guideline@pc.png" alt="">
+        </picture>
       </div>
     </section>
 
