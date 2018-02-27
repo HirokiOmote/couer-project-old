@@ -41,8 +41,13 @@
 		</ul>
 
 		<ul class="lang-menu">
-			<li class="active"><a>日本語</a></li>
-			<li><a>中文</a></li>
+			<?php if (is_page('lang-ch')): ?>
+				<li><a href="<?php echo home_url(); ?>">日本語</a></li>
+				<li class="active">中文</li>
+			<?php else: ?>
+				<li class="active"><a>日本語</a></li>
+				<li><a href="<?php echo home_url("/lang-ch/"); ?>">中文</a></li>
+			<?php endif; ?>
 			<li><a>English</a></li>
 		</ul>
 	</nav>
