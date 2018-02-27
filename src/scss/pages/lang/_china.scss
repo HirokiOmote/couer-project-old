@@ -195,6 +195,43 @@
       }
     }
   }
+
+  .bottom {
+    margin-top: 28px;
+
+    @media (min-width: 768px) {
+      margin-top: 40px;
+    }
+
+    p {
+      font-size: 1.2rem;
+
+      @media (min-width: 768px) {
+        font-size: 1.4rem;
+      }
+
+      &:first-child {
+        font-weight: 600;
+
+        @media (min-width: 768px) {
+          font-size: 1.6rem;
+        }
+      }
+
+      &.txt-ja {
+        margin-top: 1em;
+        color: #898989;
+
+        @media (min-width: 768px) {
+          font-size: 1.4rem;
+        }
+      }
+
+      img {
+        margin-bottom: 2em;
+      }
+    }
+  }
 }
 
 .section-chart {

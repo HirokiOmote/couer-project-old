@@ -58,6 +58,15 @@
     </div>
 
     <p>咨询电话：03-3572-4300（担当：中文）<br>〒104-0061东京都中央区银座5丁目9-12ダイヤモンドビル4F　</p>
+
+    <div class="bottom">
+      <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_qr003.svg" alt=""><br>
+      日本美容外科医疗整形医院合作医疗机构（欢迎咨询）<br>CLINIC MORI （东京・赤坂见附）</p>
+      <p class="txt-ja">皮膚管理研修の他、美容外科での医療をご希望の方へは提携クリニックをご紹介しております。<br>
+      お気軽にお問い合わせください。<br>
+      ［東京提携クリニック］<br>
+      ライフスタイルメディカルセンター クリニックモリ <br class="visible-sp">（東京・赤坂見附）</p>
+    </div>
   </section>
 
   <section class="section-chart">
