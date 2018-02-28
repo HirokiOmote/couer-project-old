@@ -190,8 +190,8 @@
       <p>＊海外の美容事業者向け、クールエステティック流エステティックセミナーを国内外にて開催、運営</p>
 
       <ul class="half-list">
-        <li><a><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas001.png" alt="茂東塾"></a></li>
-        <li><a><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas002.png" alt="光脱毛テクニックセミナー"></a></li>
+        <li><a href="<?php echo home_url("/lang-ch/"); ?>"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas001.png" alt="茂東塾"></a></li>
+        <li><a href="<?php echo home_url("/lang-ch/"); ?>"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas002.png" alt="光脱毛テクニックセミナー"></a></li>
       </ul>
 
       <p class="txt-note">※ロゴマークをクリック(タップ)で詳細ページにリンクします。</p>

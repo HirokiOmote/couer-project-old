@@ -268,7 +268,7 @@ get_header();
       </a>
     </li>
     <li>
-      <a>
+      <a href="<?php echo home_url("/lang-ch/"); ?>">
         <p>クール<br>日本フェイシャル<br>エステティック</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand015.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand015@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand015.png" alt="">
       </a>

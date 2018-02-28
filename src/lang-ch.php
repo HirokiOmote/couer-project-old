@@ -16,7 +16,7 @@
     <div class="inner">
       <div class="movie">
         <div class="youtube">
-          <iframe class="embed" src="https://www.youtube.com/embed/IRa-M9UxnY8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe class="embed" src="https://www.youtube.com/embed/VoPxpytoKwk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
 
         <p>我们为您提供最优秀的师资力量和最高端的服务品质，欢迎您加入我们行业！与您相约东京银座・金泽・大阪・富山</p>
@@ -40,7 +40,7 @@
   <section class="section-qr">
     <header>
       <h2>如需申请或咨询请电话或微信联系。</h2>
-      <p>お申し込み、お問合せはこちらまでご連絡ください。</p>
+      <p>お申し込み、お問い合わせは<br class="visible-sp">こちらまでご連絡ください。</p>
     </header>
 
     <div class="inner">
@@ -57,7 +57,7 @@
       </p>
     </div>
 
-    <p>咨询电话：03-3572-4300（担当：中文）<br>〒104-0061东京都中央区银座5丁目9-12ダイヤモンドビル4F　</p>
+    <p>咨询电话：03-3572-4300（担当：中文）<br>〒104-0061东京都中央区银座5丁目9-12<br>ダイヤモンドビル4F</p>
 
     <div class="bottom">
       <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_qr003.svg" alt=""><br>
@@ -73,11 +73,10 @@
     <header>
       <h2>学习美业技术,要从高品质服务做起,才能结合最先进的美容仪器伴随同行。</h2>
       <p>おもてなしからエステティック技術、<br class="visible-sp">最新機器まで幅広く対応しています。</p>
+      <p class="txt-en">We can support widely from hospitality to latest equipment.</p>
     </header>
 
     <div class="inner">
-      <p class="txt-intro">We can support widely from hospitality to latest equipment.</p>
-
       <figure>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_chart.png" alt="work graph">
       </figure>
