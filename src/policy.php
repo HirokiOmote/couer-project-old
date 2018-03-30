@@ -48,7 +48,7 @@
 
     <section class="section-president">
       <header>
-        <p>PRESIDENT’S PROFILE</p>
+        <p id="presiprof">PRESIDENT’S PROFILE</p>
         <h2>社長プロフィール</h2>
       </header>
 
