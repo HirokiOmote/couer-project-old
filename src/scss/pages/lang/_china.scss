@@ -175,11 +175,12 @@
       display: flex;
       justify-content: space-between;
       margin-top: 67px;
-      max-width: 768px;
+      max-width: 1200px;
     }
   }
 
   .left,
+  .center,
   .right {
     span {
       vertical-align: .2em;
@@ -189,6 +190,24 @@
   .left {
     span {
       margin-left: -56px;
+    }
+  }
+
+  .center {
+    margin-top: 25px;
+
+    @media (min-width: 768px) {
+      margin-top: 0;
+    }
+
+    span {
+      display: block;
+
+      @media (min-width: 768px) {
+        display: inline;
+        vertical-align: .7em;
+        margin-left: -68px;
+      }
     }
   }
 
@@ -204,7 +223,7 @@
 
       @media (min-width: 768px) {
         display: inline;
-        margin-left: -68px;
+        margin-left: -57px;
       }
     }
   }

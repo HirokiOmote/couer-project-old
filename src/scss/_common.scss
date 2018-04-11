@@ -160,12 +160,12 @@ th {
 
   .global-navigation {
     position: absolute;
-    top: 69px;
+    top: 66px;
     left: 0;
     z-index: 1000;
     display: none;
     width: 100%;
-    background-color: #fff;
+    background-color: rgba(#c6faff, .85);
 
     @media (min-width: 1140px) {
       position: relative;
@@ -175,6 +175,7 @@ th {
       align-items: flex-end;
       padding-top: 15px;
       width: auto;
+      background-color: transparent;
     }
   }
 
@@ -192,7 +193,6 @@ th {
 
     > li {
       position: relative;
-      background-color: #c6faff;
 
       @media (min-width: 1140px) {
         background-color: transparent;
@@ -324,12 +324,14 @@ th {
 
   .lang-menu {
     display: flex;
-    border-top: 1px solid #aaa;
+    border: 1px solid #aaa;
+    border-left-width: 0;
+    border-right-width: 0;
     font-size: 1.3rem;
 
     @media (min-width: 1140px) {
       justify-content: flex-end;
-      border-top-width: 0;
+      border-width: 0;
     }
 
     li {

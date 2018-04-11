@@ -37,8 +37,8 @@ function reInit () {
     }
 
     timer = setTimeout(function () {
-      $('[data-top-news]').slick('reinit');
-      $('[data-infinite-slide]').slick('reinit');
+      $('[data-top-news]').slick('resize');
+      $('[data-infinite-slide]').slick('resize');
     }, 200);
   });
 }
