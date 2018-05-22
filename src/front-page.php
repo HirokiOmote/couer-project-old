@@ -276,4 +276,19 @@ get_header();
   </ul>
 </section>
 
+<section class="sec-associate" data-aos="fade">
+  <header>
+    <h2>AFFILIATED COMPANIES</h2>
+    <p>関連会社</p>
+  </header>
+
+  <div class="logo">
+    <a href="http://ieba.jp" target="_blank">
+      <p>国際エステティック美容協会</p>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/front-page/logo_ieba.svg" alt="国際エステティック美容協会">
+    </a>
+  </div>
+</section>
+
+
 <?php get_footer(); ?>
