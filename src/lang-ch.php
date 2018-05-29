@@ -307,6 +307,30 @@
           <figcaption>注册商cocosele®</figcaption>
         </figure>
       </li>
+      <li>
+        <figure>
+          <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_et.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_et@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_et.jpg" alt=""></span>
+          <figcaption>注册商标et BODY®  et BUST®</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_spa.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_spa@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_spa.jpg" alt=""></span>
+          <figcaption>注册商标BEAUTE de Coeur®</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_essential.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_essential@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_essential.jpg" alt=""></span>
+          <figcaption>注册商标BEAUTE de Coeur®</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_refix.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_refix@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_refix.jpg" alt=""></span>
+          <figcaption>注册商标BEAUTE de Coeur®</figcaption>
+        </figure>
+      </li>
     </ul>
   </section>
 
@@ -413,6 +437,89 @@
       </li>
     </ul>
   </section>
+  
+  <section class="section-tokyo">
+    <header>
+      <h2>中国・苏州教学环境与学员风采</h2>
+    </header>
+
+    <ul>
+      <li>
+        <figure>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_soshu001.jpg" alt="">
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_soshu002.jpg" alt="">
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_soshu003.jpg" alt="">
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_soshu004.jpg" alt="">
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_soshu005.jpg" alt="">
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_soshu006.jpg" alt="">
+          <figcaption></figcaption>
+        </figure>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <figure>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_soshu007.jpg" alt="">
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_soshu008.jpg" alt="">
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_soshu009.jpg" alt="">
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_soshu010.jpg" alt="">
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_soshu011.jpg" alt="">
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_soshu012.jpg" alt="">
+          <figcaption></figcaption>
+        </figure>
+      </li>
+    </ul>
+  </section>
 
   <section class="section-instructor">
     <header>
@@ -465,6 +572,7 @@
         JCLA日本化妆品1级<br>
         Coeur. Aesthetic上海分店，担任店长。现在是行政经理，主要负责新商品企划开发以及各种教育培训会企划等。</p>
 
+<!--
         <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_instructor004.jpg" alt="">
         内田育美（uchida ikumi）<br>
         株式会社Coeur.Project　　FC・咨询事业部　科长<br>
@@ -473,6 +581,7 @@
         1990年取得了美容师国家资格，日本美容协会的美容师资格。<br>
         之后，就职于株式会社生活之木，担任培训讲师。<br>
         2008年进入本公司。Coeur. Aesthetic福井分店工作。提拔为店长，担任新人培训。之后，担任J.B.MACHINERIE事业部的首席讲师。Coeur公司所有新人培训负责人。</p>
+        -->
 
         <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_instructor005.jpg" alt="">
         中西 良枝（nakanishi yoshie）<br>

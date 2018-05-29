@@ -395,6 +395,10 @@
             <th>2017年12月</th>
             <td>クールプロジェクト大阪支社　京都から大阪に移転OPEN</td>
           </tr>
+          <tr>
+            <th>2018年05月</th>
+            <td>国際エステティック美容協会（INTERNATIONAL ESTHETIC BEAUTY ASSOCIATION） 設立</td>
+          </tr>
         </tbody>
       </table>
     </section>
@@ -421,7 +425,8 @@
         <li><a><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_dhs.svg" alt="DHS"></a></li>
         <li><a href="<?php echo home_url("/lang-ch/"); ?>"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon.png" alt="Couer China"></a></li>
         <li><a href="<?php echo home_url("/lang-ch/"); ?>"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_nihon002.png" alt="Couer China"></a></li>
-        <li><a href="<?php echo home_url(); ?>" href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/common/logo.svg" alt="クールプロジェクト"></a></li>
+        <li><a href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/common/logo.svg" alt="クールプロジェクト"></a></li>
+        <li><a href="http://www.jb-m.jp/et.html" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_et.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_et@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/common/icon_et.jpg" alt="Couer China"></a></li>
       </ul>
     </section>
 
