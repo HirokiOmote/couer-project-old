@@ -456,3 +456,24 @@
     }
   }
 }
+
+.sec-associate {
+  @extend .sec-brand;
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 45px;
+    padding: 0 3vw;
+
+    @media (min-width: 768px) {
+      margin-top: 55px;
+    }
+
+    a {
+      max-width: 528px;
+      width: 100%;
+    }
+  }
+}

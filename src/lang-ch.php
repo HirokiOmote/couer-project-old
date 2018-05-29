@@ -49,18 +49,21 @@
         <span>微信coeur358</span>
       </p>
 
-      <p class="right">
+      <p class="center">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_qr002.png" alt="">
-        <span>微博：日本皮肤管理_COEUR-PROJECT
+        <span>微博：日本皮肤管理_COEUR-PROJECT</span>
+      </p>
 
-        </span>
+      <p class="right">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_qr003.png" alt="">
+        <span>微信keyanli2018</span>
       </p>
     </div>
 
     <p>咨询电话：03-3572-4300（担当：中文）<br>〒104-0061东京都中央区银座5丁目9-12<br>ダイヤモンドビル4F</p>
 
     <div class="bottom">
-      <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_qr003.svg" alt=""><br>
+      <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_qr_icon.svg" alt=""><br>
       日本美容外科医疗整形医院合作医疗机构（欢迎咨询）<br>CLINIC MORI （东京・赤坂见附）</p>
       <p class="txt-ja">皮膚管理研修の他、美容外科での医療をご希望の方へは提携クリニックをご紹介しております。<br>
       お気軽にお問い合わせください。<br>
