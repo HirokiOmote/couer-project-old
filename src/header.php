@@ -41,7 +41,7 @@
 				<ul class="sub-menu" data-navigation-submenu>
 					<li><a href="<?php echo home_url('policy#philosophy'); ?>">企業理念</a></li>
 					<li><a href="<?php echo home_url('policy#guideline'); ?>">指針</a></li>
-					<li><a href="<?php echo home_url('policy#profile'); ?>">社長プロフィール</a></li>
+					<li><a href="<?php echo home_url('policy#president'); ?>">社長プロフィール</a></li>
 					<li><a class="blank" href="https://jb-m.jp/motojuku.html" target="_blank">茂藤塾</a></li>
 					<li><a href="<?php echo home_url('policy#interview'); ?>">取材記事</a></li>
 					<li><a href="<?php echo home_url('policy#social'); ?>">社会貢献</a></li>
@@ -95,8 +95,8 @@
 				</button>
 				<ul class="sub-menu" data-navigation-submenu>
 					<li><a href="<?php echo home_url('contact#form'); ?>">お問い合わせフォーム</a></li>
-					<li><a href="<?php echo home_url('contact#policy'); ?>">電話・FAXでのお問合せ</a></li>
-					<li><a href="<?php echo home_url('contact#tel'); ?>">プライバシーポリシー</a></li>
+					<li><a href="<?php echo home_url('contact#policy'); ?>">プライバシーポリシー</a></li>
+					<li><a href="<?php echo home_url('contact#tel'); ?>">電話・FAXでのお問合せ</a></li>
 				</ul>
 			</li>
 		</ul>
