@@ -15,7 +15,7 @@
   </header>
 
   <div class="wrapper">
-    <section class="section-form">
+    <section class="section-form" id="form">
       <header>
         <p>INQUIRY FORM</p>
         <h2>お問い合わせフォーム</h2>
@@ -24,7 +24,7 @@
       <?php echo do_shortcode('[mwform_formkey key="91"]'); ?>
     </section>
 
-    <section class="section-privacy">
+    <section class="section-privacy" id="policy">
       <header>
         <p>PRIVACY POLICY</p>
         <h2>プライバシーポリシー</h2>
@@ -78,7 +78,7 @@
       </section>
     </section>
 
-    <section class="section-profile">
+    <section class="section-profile" id="tel">
       <header>
         <p>TEL &amp; FAX</p>
         <h2>電話・FAXでのお問い合わせ</h2>

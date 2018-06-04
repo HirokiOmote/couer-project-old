@@ -15,7 +15,7 @@
   </header>
 
   <div class="wrapper">
-    <section class="section-philosophy">
+    <section class="section-philosophy" id="philosophy">
       <header>
         <p>PHILOSOPHY</p>
         <h2>企業理念</h2>
@@ -28,7 +28,7 @@
       </div>
     </section>
 
-    <section class="seciton-guideline">
+    <section class="seciton-guideline" id="guideline">
       <header>
         <p>GUIDELINE</p>
         <h2>指針</h2>
@@ -46,7 +46,7 @@
       </div>
     </section>
 
-    <section class="section-president">
+    <section class="section-president" id="president">
       <header>
         <p id="presiprof">PRESIDENT’S PROFILE</p>
         <h2>社長プロフィール</h2>
@@ -90,7 +90,7 @@
       </div>
     </section>
 
-    <section class="section-interview">
+    <section class="section-interview" id="interview">
       <header>
         <p>INTERVIEW</p>
         <h2>取材記事</h2>

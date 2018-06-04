@@ -30,6 +30,14 @@ $colors: #35318f, #0e6fa8, #456436, #805d27, #835b84, #bb5a41, #df6a70;
   }
 }
 
+.section-depart {
+  header {
+    @extend %section-header;
+
+    padding-bottom: 25px;
+  }
+}
+
 .section-guide {
   @each $color in $colors {
     $key: index($colors, $color);
@@ -55,8 +63,8 @@ $colors: #35318f, #0e6fa8, #456436, #805d27, #835b84, #bb5a41, #df6a70;
     width: 50%;
 
     padding: {
-      left: 30px;
       right: 30px;
+      left: 30px;
     }
   }
 
@@ -73,6 +81,10 @@ $colors: #35318f, #0e6fa8, #456436, #805d27, #835b84, #bb5a41, #df6a70;
 
     @media screen and (min-width: 1024px) {
       justify-content: flex-start;
+    }
+
+    header {
+      @extend %section-header;
     }
   }
 

@@ -14,8 +14,11 @@ get_header();
     </h1>
   </header>
 
-  <?php if ( have_rows('media') ): while ( have_rows('media') ): the_row(); ?>
-    <section class="section-media">
+  <?php if ( have_rows('media') ): ?>
+    <?php $counter = 1; ?>
+
+    <?php while ( have_rows('media') ): the_row(); ?>
+    <section class="section-media" id="<?php echo $counter++; ?>">
       <header>
         <p><?php the_sub_field('title_en'); ?></p>
         <h2><?php the_sub_field('title'); ?></h2>

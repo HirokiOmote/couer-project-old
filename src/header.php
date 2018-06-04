@@ -21,8 +21,32 @@
 	<nav class="global-navigation" data-navigation>
 		<ul class="main-menu">
 			<li><a href="<?php echo home_url(); ?>">ホーム</a></li>
-			<li><a href="<?php echo home_url('guide'); ?>">事業案内</a></li>
-			<li><a href="<?php echo home_url('policy'); ?>">企業理念</a></li>
+			<li data-navigation-sub-mouseover>
+				<a href="<?php echo home_url('guide'); ?>">事業案内</a>
+				<button class="sub-trigger" data-navigation-sub-trigger>
+					<span></span>
+					<span></span>
+				</button>
+				<ul class="sub-menu" data-navigation-submenu>
+					<li><a href="<?php echo home_url('guide#chart'); ?>">組織図</a></li>
+					<li><a href="<?php echo home_url('guide#depart'); ?>">事業部紹介</a></li>
+				</ul>
+			</li>
+			<li data-navigation-sub-mouseover>
+				<a href="<?php echo home_url('policy'); ?>">企業理念</a>
+				<button class="sub-trigger" data-navigation-sub-trigger>
+					<span></span>
+					<span></span>
+				</button>
+				<ul class="sub-menu" data-navigation-submenu>
+					<li><a href="<?php echo home_url('policy#philosophy'); ?>">企業理念</a></li>
+					<li><a href="<?php echo home_url('policy#guideline'); ?>">指針</a></li>
+					<li><a href="<?php echo home_url('policy#profile'); ?>">社長プロフィール</a></li>
+					<li><a class="blank" href="https://jb-m.jp/motojuku.html" target="_blank">茂藤塾</a></li>
+					<li><a href="<?php echo home_url('policy#interview'); ?>">取材記事</a></li>
+					<li><a href="<?php echo home_url('policy#social'); ?>">社会貢献</a></li>
+				</ul>
+			</li>
 			<li data-navigation-sub-mouseover>
 				<a href="<?php echo home_url('profile'); ?>">会社情報</a>
 				<button class="sub-trigger" data-navigation-sub-trigger>
@@ -35,9 +59,46 @@
 					<li><a href="<?php echo home_url('profile#mark'); ?>">登録商標</a></li>
 				</ul>
 			</li>
-			<li><a href="<?php echo home_url('media'); ?>">メディア</a></li>
-			<li><a href="<?php echo home_url('recruit'); ?>">採用情報</a></li>
-			<li><a href="<?php echo home_url('contact'); ?>">お問い合わせ</a></li>
+			<li data-navigation-sub-mouseover>
+				<a href="<?php echo home_url('media'); ?>">メディア</a>
+				<button class="sub-trigger" data-navigation-sub-trigger>
+					<span></span>
+					<span></span>
+				</button>
+				<ul class="sub-menu" data-navigation-submenu>
+					<li><a href="<?php echo home_url('media#1'); ?>">企業紹介</a></li>
+					<li><a href="<?php echo home_url('media#2'); ?>">新人採用戦略</a></li>
+					<li><a href="<?php echo home_url('media#3'); ?>">新人研修レポート</a></li>
+					<li><a href="<?php echo home_url('media#4'); ?>">店長会議レポート</a></li>
+					<li><a href="<?php echo home_url('media#5'); ?>">No.1顧客満足講座</a></li>
+					<li><a href="<?php echo home_url('media#6'); ?>">イチオシ美容商材</a></li>
+				</ul>
+			</li>
+			<li data-navigation-sub-mouseover>
+				<a href="<?php echo home_url('recruit'); ?>">採用情報</a>
+				<button class="sub-trigger" data-navigation-sub-trigger>
+					<span></span>
+					<span></span>
+				</button>
+				<ul class="sub-menu" data-navigation-submenu>
+					<li><a href="<?php echo home_url('recruit#1'); ?>">石川エリア</a></li>
+					<li><a href="<?php echo home_url('recruit#2'); ?>">東京エリア</a></li>
+					<li><a href="<?php echo home_url('recruit#3'); ?>">大阪エリア</a></li>
+					<li><a href="<?php echo home_url('recruit#4'); ?>">その他エリア</a></li>
+				</ul>
+			</li>
+			<li data-navigation-sub-mouseover>
+				<a href="<?php echo home_url('contact'); ?>">お問い合わせ</a>
+				<button class="sub-trigger" data-navigation-sub-trigger>
+					<span></span>
+					<span></span>
+				</button>
+				<ul class="sub-menu" data-navigation-submenu>
+					<li><a href="<?php echo home_url('contact#form'); ?>">お問い合わせフォーム</a></li>
+					<li><a href="<?php echo home_url('contact#policy'); ?>">電話・FAXでのお問合せ</a></li>
+					<li><a href="<?php echo home_url('contact#tel'); ?>">プライバシーポリシー</a></li>
+				</ul>
+			</li>
 		</ul>
 
 		<ul class="lang-menu">

@@ -14,7 +14,7 @@
     </h1>
   </header>
 
-  <section class="section-recruit">
+  <section class="section-recruit" id="1">
     <header>
       <p>ISHIKAWA AREA</p>
       <h2>石川エリア</h2>
@@ -38,7 +38,7 @@
     <?php endif; ?>
   </section>
 
-  <section class="section-recruit">
+  <section class="section-recruit" id="2">
     <header>
       <p>TOKYO AREA</p>
       <h2>東京エリア</h2>
@@ -62,7 +62,7 @@
     <?php endif; ?>
   </section>
 
-  <section class="section-recruit">
+  <section class="section-recruit" id="3">
     <header>
       <p>OSAKA AREA</p>
       <h2>大阪エリア</h2>
@@ -91,7 +91,7 @@
     <?php endif; ?>
   </section>
 
-  <section class="section-recruit-bottom">
+  <section class="section-recruit-bottom" id="4">
     <header>
       <p>OTHERS</p>
       <h2>その他募集</h2>

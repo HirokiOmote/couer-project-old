@@ -27,14 +27,13 @@ function navigation () {
     });
 
     if (window.innerWidth >= 1024) {
-      $('[data-navigation-sub-mouseover]').on(
-        {'mouseenter': function () {
-          $('[data-navigation-submenu]').slideDown();
+      $('[data-navigation-sub-mouseover]').on({
+        'mouseenter': function () {
+          $(this).children('[data-navigation-submenu]').slideDown();
         },
         'mouseleave': function () {
-          $('[data-navigation-submenu]').slideUp();
-        }
-        }
+          $(this).children('[data-navigation-submenu]').slideUp();
+        }}
       );
     }
 
