@@ -42,9 +42,9 @@
 					<li><a href="<?php echo home_url('policy#philosophy'); ?>">企業理念</a></li>
 					<li><a href="<?php echo home_url('policy#guideline'); ?>">指針</a></li>
 					<li><a href="<?php echo home_url('policy#president'); ?>">社長プロフィール</a></li>
-					<li><a class="blank" href="https://jb-m.jp/motojuku.html" target="_blank">茂藤塾</a></li>
+					<li><a class="blank" href="https://jb-m.jp/motojuku.html" target="_blank" rel="nofollow">茂藤塾</a></li>
 					<li><a href="<?php echo home_url('policy#interview'); ?>">取材記事</a></li>
-					<li><a href="<?php echo home_url('policy#social'); ?>">社会貢献</a></li>
+					<li><a href="<?php echo home_url('policy#social'); ?>">社会貢献活動</a></li>
 				</ul>
 			</li>
 			<li data-navigation-sub-mouseover>
@@ -66,12 +66,15 @@
 					<span></span>
 				</button>
 				<ul class="sub-menu" data-navigation-submenu>
-					<li><a href="<?php echo home_url('media#1'); ?>">企業紹介</a></li>
-					<li><a href="<?php echo home_url('media#2'); ?>">新人採用戦略</a></li>
-					<li><a href="<?php echo home_url('media#3'); ?>">新人研修レポート</a></li>
-					<li><a href="<?php echo home_url('media#4'); ?>">店長会議レポート</a></li>
-					<li><a href="<?php echo home_url('media#5'); ?>">No.1顧客満足講座</a></li>
-					<li><a href="<?php echo home_url('media#6'); ?>">イチオシ美容商材</a></li>
+					<?php
+						$media_page_id = get_page_by_path('media')->ID;
+						$counter = 1;
+					?>
+					<?php if ( have_rows('media', $media_page_id) ): ?>
+				    <?php while ( have_rows('media', $media_page_id) ): the_row(); ?>
+							<li><a href="<?php echo home_url('media') . '/#' . $counter++; ?>"><?php echo the_sub_field('title') ?></a></li>
+						<?php endwhile; ?>
+					<?php endif ?>
 				</ul>
 			</li>
 			<li data-navigation-sub-mouseover>
