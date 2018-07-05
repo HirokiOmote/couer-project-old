@@ -18,7 +18,8 @@ Version:        1.00
   "~reset-css/reset",
   "~slick-carousel/slick/slick.scss",
   "mixin",
-  "common";
+  "common",
+  "pages/common";
 
 .home {
   @import "pages/front-page";
@@ -52,6 +53,10 @@ Version:        1.00
 
 .contact {
   @import "pages/contact";
+}
+
+.motoujuku {
+  @import "pages/motoujuku";
 }
 
 .lang-ch {

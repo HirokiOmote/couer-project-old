@@ -1,0 +1,404 @@
+%red-list {
+  margin: 1em 0;
+  color: #f00;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.55;
+
+  @media (min-width: 768px) {
+    font-size: 1.8rem;
+  }
+}
+
+.header {
+  @extend %page-header;
+
+  background-image: url("images/pages/motoujuku/bg_header.jpg");
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 3vw;
+  max-width: 1260px;
+
+  @media (min-width: 768px) {
+    padding: 0 30px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media (min-width: 1024px) {
+    justify-content: space-between;
+  }
+}
+
+.section-about {
+  margin-top: 50px;
+
+  header {
+    @extend %section-header;
+
+    margin-bottom: 38px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 50px;
+    }
+  }
+
+  .col-left {
+    margin-bottom: 30px;
+    max-width: 642px;
+
+    @media (min-width: 1024px) {
+      width: 51%;
+    }
+
+    .intro {
+      font-weight: 600;
+      font-size: 2rem;
+      line-height: 1.4;
+
+      @media (min-width: 768px) {
+        font-size: 2.4rem;
+      }
+
+      img {
+        margin-bottom: 5px;
+
+        @media (min-width: 768px) {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    ul {
+      @extend %red-list;
+
+      li {
+        &::before {
+          content: "☆";
+        }
+      }
+    }
+
+    .main {
+      font-size: 1.4rem;
+      line-height: 1.55;
+
+      @media (min-width: 768px) {
+        font-size: 1.6rem;
+      }
+
+      img {
+        margin-top: 20px;
+
+        @media (min-width: 768px) {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+
+  .col-right {
+    @media (min-width: 1024px) {
+      padding-left: 30px;
+      max-width: 510px;
+      width: 48%;
+    }
+
+    p {
+      font-size: 1.4rem;
+      line-height: 1.4;
+
+      @media (min-width: 768px) {
+        font-size: 1.6rem;
+      }
+
+      img {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.section-middle {
+  margin-top: 50px;
+
+  @media (min-width: 768px) {
+    max-width: 570px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 48%;
+  }
+
+  header {
+    @extend %section-header;
+  }
+
+  ul {
+    &.red-list {
+      @extend %red-list;
+    }
+
+    &.count {
+      li {
+        counter-increment: count;
+
+        &::before {
+          content: counter(count) ".";
+        }
+      }
+    }
+
+    &.circle {
+      li {
+        &::before {
+          content: "◎";
+        }
+      }
+    }
+
+    &.circle-black {
+      li {
+        &::before {
+          content: "●";
+        }
+      }
+    }
+
+    &.normal-list {
+      font-size: 1.4rem;
+      line-height: 1.55;
+
+      li {
+        &::before {
+          content: "・";
+        }
+      }
+    }
+  }
+
+  p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+
+  .red-text {
+    @extend %red-list;
+
+    &::before {
+      content: "☆";
+    }
+  }
+
+  .image {
+    margin-top: 18px;
+
+    @media (min-width: 768px) {
+      margin-top: 30px;
+    }
+  }
+
+  .cert {
+    display: flex;
+    margin-top: 15px;
+
+    .image {
+      margin: 0 12px 0 0;
+    }
+
+    .text {
+      max-width: 420px;
+    }
+  }
+}
+
+.section-schedule {
+  margin-top: 50px;
+
+  header {
+    @extend %section-header;
+  }
+
+  .inner {
+    margin: 50px auto 0;
+    max-width: 700px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  tr {
+    border-bottom: 1px dotted #999;
+  }
+
+  th,
+  td {
+    padding: .8em;
+    text-align: center;
+    font-size: 1.2rem;
+
+    @media (min-width: 768px) {
+      font-size: 1.4rem;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 1.6rem;
+    }
+  }
+
+  th {
+    font-weight: 600;
+  }
+}
+
+.section-place {
+  margin: 50px auto 0;
+
+  header {
+    @extend %section-header;
+
+    margin-bottom: 39px;
+  }
+
+  .container {
+    @media (min-width: 768px) {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+    }
+
+    @media (min-width: 1024px) {
+      justify-content: space-between;
+    }
+  }
+
+  .address {
+    margin-bottom: 23px;
+    font-size: 1.6rem;
+    line-height: 1.4;
+
+    .image {
+      margin: 19px 0 0;
+      text-align: center;
+
+      @media (min-width: 768px) {
+        margin-top: 30px;
+        text-align: left;
+      }
+    }
+  }
+
+  .googlemap {
+    position: relative;
+    margin: 0 -3vw;
+    padding-bottom: 100%;
+    max-width: 845px;
+    width: calc(100% + 6vw);
+
+    @media (min-width: 768px) {
+      margin: 0;
+      padding-bottom: 39.83%;
+      width: 70.5%;
+    }
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.section-voice {
+  margin-top: 50px;
+
+  header {
+    @extend %section-header;
+  }
+
+  &-inner {
+    margin-top: 30px;
+
+    @media (min-width: 1024px) {
+      margin-top: 50px;
+      max-width: 560px;
+      width: 48%;
+    }
+
+    header {
+      padding-left: 37px;
+      background: url("./images/pages/motoujuku/icon_voice.png") 0 0 no-repeat;
+      background-size: 31px auto;
+      color: #000;
+      text-align: left;
+
+      @media (min-width: 768px) {
+        padding-left: 63px;
+        background-size: auto;
+      }
+
+      h3 {
+        margin-top: 0;
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 1.3;
+
+        @media (min-width: 768px) {
+          font-size: 1.8rem;
+        }
+      }
+
+      p {
+        margin-top: .2em;
+        text-indent: 0;
+        font-weight: 300;
+        font-size: 1.4rem;
+
+        @media (min-width: 768px) {
+          font-size: 1.6rem;
+        }
+      }
+    }
+
+    .image {
+      margin: 16px 0;
+    }
+
+    p {
+      text-indent: 1em;
+      font-size: 1.2rem;
+      line-height: 1.7;
+
+      @media (min-width: 768px) {
+        font-size: 1.4rem;
+      }
+
+      @media (min-width: 1024px) {
+        font-size: 1.6rem;
+      }
+
+      strong {
+        margin-left: -1em;
+        font-weight: bold;
+      }
+
+      em {
+        font-weight: bold;
+      }
+    }
+  }
+}

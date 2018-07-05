@@ -42,7 +42,7 @@
 					<li><a href="<?php echo home_url('policy#philosophy'); ?>">企業理念</a></li>
 					<li><a href="<?php echo home_url('policy#guideline'); ?>">指針</a></li>
 					<li><a href="<?php echo home_url('policy#president'); ?>">社長プロフィール</a></li>
-					<li><a class="blank" href="https://jb-m.jp/motojuku.html" target="_blank" rel="nofollow">茂藤塾</a></li>
+					<li><a href="<?php echo home_url('motojuku'); ?>">茂藤塾</a></li>
 					<li><a href="<?php echo home_url('policy#interview'); ?>">取材記事</a></li>
 					<li><a href="<?php echo home_url('policy#social'); ?>">社会貢献活動</a></li>
 				</ul>
