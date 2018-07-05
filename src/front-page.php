@@ -210,9 +210,9 @@ get_header();
       </a>
     </li>
     <li>
-      <a href="https://coeur-movie.jp/" target="_blank" rel="nofollow">
-        <p>エステティシャン<br>新人研修・幹部会議<br>動画配信サイト<br>クールムービー</p>
-        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand005.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand005@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand005.png" alt="">
+      <a href="https://coeur-project.jp/wp-content/uploads/2018/06/esthejuku.pdf" target="_blank" rel="nofollow">
+        <p>クールエステ塾</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand016.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand016@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand016.png" alt="">
       </a>
     </li>
     <li>
@@ -247,6 +247,12 @@ get_header();
       <a href="http://www.jb-m.jp/beaute.html" target="_blank" rel="nofollow">
         <p>プライベートブランド<br>コスメ<br>ボーテ・ド・クール</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand010.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand010@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand010.png" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="https://coeur-movie.jp/" target="_blank" rel="nofollow">
+        <p>エステティシャン<br>新人研修・幹部会議<br>動画配信サイト<br>クールムービー</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand005.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand005@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand005.png" alt="">
       </a>
     </li>
     <li>
