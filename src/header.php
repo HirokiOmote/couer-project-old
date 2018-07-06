@@ -86,7 +86,6 @@
 				<ul class="sub-menu" data-navigation-submenu>
 					<li><a href="<?php echo home_url('recruit#1'); ?>">石川エリア</a></li>
 					<li><a href="<?php echo home_url('recruit#2'); ?>">東京エリア</a></li>
-					<li><a href="<?php echo home_url('recruit#3'); ?>">大阪エリア</a></li>
 					<li><a href="<?php echo home_url('recruit#4'); ?>">その他エリア</a></li>
 				</ul>
 			</li>

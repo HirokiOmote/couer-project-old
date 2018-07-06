@@ -34,21 +34,6 @@
         <div class="marker" data-lat="35.6698712" data-lng="139.7638618"></div>
       </a href="">
     </li>
-
-    <li>
-      <p class="ttl">[大阪支社]</p>
-      <div class="btn" data-accordion>Address&amp;Map</div>
-
-      <div class="inner-content">
-        <p>〒541-0054 大阪府大阪市中央区南本町4丁目3-16 ブランズタワー御堂筋本町404<br>（お問い合わせ時間：平日10:00〜17:00）</p>
-        <p>Tel&Fax.06-7171-0044</p>
-        <p><b>コンサルティング事業部<br>ビューティプロダクツ事業部</b></p>
-      </div>
-
-      <a href="https://goo.gl/maps/gZAMMNybPVB2" class="google-map" target="_blank" rel="nofollow">
-        <div class="marker" data-lat="34.6824778" data-lng="135.4971881"></div>
-      </a>
-    </li>
   </ul>
 
   <p class="copyright"><small>Copyright (C) 2002 - <?php echo date('Y'); ?> Coeur Project. All Rights Reserved.</small></p>
