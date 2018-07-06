@@ -3,13 +3,13 @@
   // Template Name: 茂藤塾
 ?>
 
-<main class="motoujuku">
+<main class="motojuku">
   <header class="header">
     <h1>
       <picture>
-        <source media="(min-width: 768px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motoujuku/ttl_header@pc.svg">
-        <source media="(min-width: 320px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motoujuku/ttl_header@sp.svg">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motoujuku/ttl_header@pc.svg" alt="茂藤塾">
+        <source media="(min-width: 768px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motojuku/ttl_header@pc.svg">
+        <source media="(min-width: 320px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motojuku/ttl_header@sp.svg">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motojuku/ttl_header@pc.svg" alt="茂藤塾">
       </picture>
     </h1>
   </header>
@@ -23,21 +23,21 @@
 
       <div class="container">
         <div class="col-left">
-          <p class="intro"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motoujuku/img_about001.png" alt="茂藤塾"><br>
+          <p class="intro"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motojuku/img_about001.png" alt="茂藤塾"><br>
           サロンオーナーのための「エステ経営 学び塾」</p>
 
           <ul>
             <li>顧客満足度経営の真髄とは！！</li>
             <li>目からウロコのエステティシャン新人教育の極意！！</li>
-            <li>明確なスタッフ評価システムとは！！</li>
+            <li>明解なスタッフ評価システムとは！！</li>
             <li>広告費を掛けないコスパ経営とは！！</li>
           </ul>
 
-          <p class="main">顧客満足度日本一に輝いたエステティックサロン「クールエステティック」が16年間に渡り、53,000人余のお客様と契約し、培ってきたノウハウをオープンにしてお教えします。<br><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motoujuku/img_about002.png" alt="年間売上9億1千万円"></p>
+          <p class="main">顧客満足度日本一に輝いたエステティックサロン「クールエステティック」が16年間に渡り、53,000人余のお客様と契約し、培ってきたノウハウをオープンにしてお教えします。<br><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motojuku/img_about002.png" alt="年間売上9億1千万円"></p>
         </div>
 
         <div class="col-right">
-          <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motoujuku/img_about003.png" alt="茂藤雅彦"><br>1966年石川県生まれ。地元の大学（薬学部）を経て、医療機器販売会社、大手外資系保険会社（ファイナンシャルプランナー）に勤務。その後、2002年にエステティックサロンを経営する株式会社クールプロジェクトを設立。自らが主宰し登壇する新人教育セミナーは各方面から話題を集め、全国からエステオーナー達の見学が絶えない。</p>
+          <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motojuku/img_about003.png" alt="茂藤雅彦"><br>1966年石川県生まれ。地元の大学（薬学部）を経て、医療機器販売会社、大手外資系保険会社（ファイナンシャルプランナー）に勤務。その後、2002年にエステティックサロンを経営する株式会社クールプロジェクトを設立。自らが主宰し登壇する新人教育セミナーは各方面から話題を集め、全国からエステオーナー達の見学が絶えない。</p>
         </div>
       </div>
     </section>
@@ -64,7 +64,7 @@
         </ul>
 
         <div class="image">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motoujuku/img_course.jpg" alt="">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motojuku/img_course.jpg" alt="">
         </div>
       </section>
 
@@ -82,6 +82,10 @@
         </ul>
 
         <p>※受講をご検討の方は「クールイズム研修会」の無料見学が可能です。お気軽にお問い合わせください。</p>
+
+        <div class="image">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motojuku/img_target.jpg" alt="クールプロジェクトの外観">
+        </div>
       </section>
 
       <section class="section-middle">
@@ -111,7 +115,7 @@
 
         <div class="cert">
           <div class="image">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motoujuku/img_tuition.jpg" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motojuku/img_tuition.jpg" alt="">
           </div>
 
           <div class="text">
@@ -167,9 +171,6 @@
           TEL:076-246-5111(平日10：00～17：00)<br>
           担当：田邊<br>
           <a href="mailto:consult@coeur-project.jp">consult@coeur-project.jp</a></p>
-          <div class="image">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motoujuku/img_place.jpg" alt="クールプロジェクトの外観">
-          </div>
         </div>
 
         <div class="googlemap">

@@ -204,7 +204,7 @@ get_header();
       </a>
     </li>
     <li>
-      <a href="http://www.jb-m.jp/motojuku.html" target="_blank" rel="nofollow">
+      <a href="<?php echo home_url('motojuku') ?>">
         <p>勝ち組サロン経営術<br>茂藤塾<br>（もとうじゅく）</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand004.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand004@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand004.png" alt="">
       </a>

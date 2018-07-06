@@ -103,7 +103,7 @@
         ＊クールムービー（幹部会議・新人研修等の生動画）配信サイト運営</p>
 
         <ul>
-          <li><a href="http://www.jb-m.jp/motojuku.html" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting001.png" alt="茂東塾"></a></li>
+          <li><a href="<?php echo home_url('motojuku'); ?>"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting001.png" alt="茂東塾"></a></li>
           <li><a><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting002.png" alt="光脱毛テクニックセミナー"></a></li>
           <li><a href="https://coeur-movie.jp/" target="_blank" rel="nofollow"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting003.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting003@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_consulting003.png" alt="クールムービー"></a></li>
         </ul>

@@ -13,7 +13,7 @@
 .header {
   @extend %page-header;
 
-  background-image: url("images/pages/motoujuku/bg_header.jpg");
+  background-image: url("images/pages/motojuku/bg_header.jpg");
 }
 
 .wrapper {
@@ -59,7 +59,7 @@
 
     .intro {
       font-weight: 600;
-      font-size: 2rem;
+      font-size: 1.8rem;
       line-height: 1.4;
 
       @media (min-width: 768px) {
@@ -246,7 +246,6 @@
   th,
   td {
     padding: .8em;
-    text-align: center;
     font-size: 1.2rem;
 
     @media (min-width: 768px) {
@@ -341,7 +340,7 @@
 
     header {
       padding-left: 37px;
-      background: url("./images/pages/motoujuku/icon_voice.png") 0 0 no-repeat;
+      background: url("./images/pages/motojuku/icon_voice.png") 0 0 no-repeat;
       background-size: 31px auto;
       color: #000;
       text-align: left;
