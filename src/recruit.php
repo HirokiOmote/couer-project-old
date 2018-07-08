@@ -61,7 +61,7 @@
       <p>※現在、募集は行っておりません。</p>
     <?php endif; ?>
   </section>
-
+<!--
   <section class="section-recruit" id="3">
     <header>
       <p>OSAKA AREA</p>
@@ -90,7 +90,7 @@
       <p>※現在、募集は行っておりません。</p>
     <?php endif; ?>
   </section>
-
+-->
   <section class="section-recruit-bottom" id="4">
     <header>
       <p>OTHERS</p>
@@ -108,7 +108,7 @@
       <p class="title">クールエステ塾（富山県 / 石川県 / 福井県）</p>
       <p>エステティシャンのための「実践！現場 学び塾」です。<br>リアル店舗で働きながらお給料をもらえて学べる《クールエステ塾》は<br>短期1年コース／中期3年コース／長期5年コース</p>
 
-      <p><a href="https://coeur-esthetique.jp/" target="_blank">くわしくはこちら</a></p>
+      <p><a href="https://coeur-project.jp/wp-content/uploads/2018/06/esthejuku.pdf" target="_blank">くわしくはこちら</a></p>
     </div>
   </section>
 </main>
