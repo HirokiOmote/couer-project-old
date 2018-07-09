@@ -172,6 +172,9 @@
           TEL:076-246-5111(平日10：00～17：00)<br>
           担当：田邊<br>
           <a href="mailto:consult@coeur-project.jp">consult@coeur-project.jp</a></p>
+          <div class="image">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/motojuku/img_place.jpg" alt="クールプロジェクトの外観">
+          </div>
         </div>
 
         <div class="googlemap">
