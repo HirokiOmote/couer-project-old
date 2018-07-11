@@ -261,6 +261,10 @@
         <figure>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/profile/img_profile002.png" alt="クールグループ年間売上額推移">
         </figure>
+        
+        <figure>
+        <iframe width="350" height="197" src="https://www.youtube.com/embed/8NAIVvDjGRQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </figure>
       </div>
     </section>
 
