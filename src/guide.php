@@ -57,7 +57,9 @@
         </ul>
 
         <p class="txt-note">※ロゴマークをクリック(タップ)で詳細ページにリンクします。</p>
+        <div style="margin-top:10px">
         <iframe width="350" height="197" src="https://www.youtube.com/embed/8NAIVvDjGRQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
       </section>
 
       <section class="section-guide" id="fc">
