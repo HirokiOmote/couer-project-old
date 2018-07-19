@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="163" height="39" viewBox="0 0 163 39">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="568" y="238" width="163" height="39" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.236"/>
+      <feFlood result="flood" flood-opacity="0.75"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="title_header.svg" class="cls-1" d="M589.863,252.841a84.826,84.826,0,0,0,8.927-7.967l-2.816-1.888c-7.775,9.7-19.166,14.335-23.774,15.967l1.76,2.464a66.87,66.87,0,0,0,12.831-6.432v15.807h3.072V252.841Zm48.511-3.648a33.968,33.968,0,0,0-3.3-4.351l-1.887,1.216a36.434,36.434,0,0,1,3.231,4.543Zm3.9-2.207a29.681,29.681,0,0,0-3.328-4.192l-1.824,1.248a35.333,35.333,0,0,1,3.264,4.351ZM615.3,261.193c0.128-.128.544-0.608,0.832-0.928,0.768-.928,4.224-5.728,5.023-6.784,1.248-1.632,2.3-3.072,3.36-3.072a3.325,3.325,0,0,1,2.048,1.152l14.559,15.071,2.368-2.5-14.079-14.015c-2.624-2.623-3.744-2.751-4.736-2.751a5.623,5.623,0,0,0-3.968,2.143c-1.151,1.248-6.4,7.712-7.679,9.088Zm53.343-11.68a42.4,42.4,0,0,0-10.175-4.479l-1.44,2.56a35.493,35.493,0,0,1,9.823,4.7ZM658.312,269.8c19.038-2.016,23.2-13.983,25.758-21.343l-2.88-1.279c-4.992,16.062-14.975,18.814-24,19.454Zm47.519-27.006v28.222H708.9V254.249a67.18,67.18,0,0,1,14.783,7.008l1.536-2.848a66.6,66.6,0,0,0-16.319-7.136v-8.479h-3.072Z" transform="translate(-568 -238)"/>
+</svg>

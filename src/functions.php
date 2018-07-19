@@ -150,6 +150,10 @@ function change_posts_per_page($query) {
 	if ( is_home() ) {
 		$query->set( 'posts_per_page', '5' );
 	}
+
+	if ( is_category() ) {
+		$query->set( 'posts_per_page', '16' );
+	}
 }
 add_action( 'pre_get_posts', 'change_posts_per_page' );
 

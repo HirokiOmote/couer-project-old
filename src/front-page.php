@@ -109,6 +109,13 @@ get_header();
     </li>
 
     <li data-aos="fade-down">
+      <a href="<?php echo home_url("category/event/"); ?>">
+        <p>イベント</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile007.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile007@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile007.png" alt="">
+      </a>
+    </li>
+
+    <li data-aos="fade-down">
       <a href="<?php echo home_url("contact"); ?>">
         <p>お問い合わせ</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile006.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile006@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_profile006.png" alt="">
