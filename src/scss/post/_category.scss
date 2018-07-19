@@ -2,6 +2,11 @@
   @extend %page-header;
 
   background-image: url("images/post/category-event/bg_header.jpg");
+
+  h1 {
+    width: 33.4vw;
+    max-width: 163px;
+  }
 }
 
 .wrapper {
