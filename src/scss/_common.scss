@@ -239,23 +239,28 @@ th {
       }
     }
 
-    > li:first-child a {
-      @media (min-width: 1140px) {
-        &::after {
-          position: absolute;
-          top: 20px;
-          left: 15%;
-          display: block;
-          width: 0;
-          height: 2px;
-          background: linear-gradient(to right, #6dc6cd 0%, #2151a2 100%);
-          content: "";
-          transition: all .4s ease;
-        }
+    > li {
+      &:first-child,
+      &:nth-child(6) {
+        a {
+          @media (min-width: 1140px) {
+            &::after {
+              position: absolute;
+              top: 20px;
+              left: 15%;
+              display: block;
+              width: 0;
+              height: 2px;
+              background: linear-gradient(to right, #6dc6cd 0%, #2151a2 100%);
+              content: "";
+              transition: all .4s ease;
+            }
 
-        &:hover {
-          &::after {
-            width: 70%;
+            &:hover {
+              &::after {
+                width: 70%;
+              }
+            }
           }
         }
       }
