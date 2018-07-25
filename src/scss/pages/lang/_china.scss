@@ -121,9 +121,9 @@
     max-width: 492px;
 
     p {
+      margin-top: 1em;
       font-size: 1.4rem;
       line-height: 1.4;
-      margin-top: 1em;
 
       &:first-child {
         margin-top: 3em;
@@ -205,8 +205,8 @@
 
       @media (min-width: 768px) {
         display: inline;
-        vertical-align: .7em;
         margin-left: -68px;
+        vertical-align: .7em;
       }
     }
   }
@@ -286,10 +286,10 @@
       }
 
       &.txt-en {
-        font-size: 1.4rem;
         margin-top: 15px;
         color: #000;
         font-weight: 300;
+        font-size: 1.4rem;
       }
     }
   }
@@ -459,6 +459,16 @@
 
   .cert {
     margin-top: 40px;
+
+    .image {
+      margin-bottom: 30px;
+      max-width: 453px;
+      text-align: center;
+
+      @media (min-width: 768px) {
+        text-align: left;
+      }
+    }
 
     ul {
       margin-top: 20px;
@@ -789,6 +799,73 @@
       @media (min-width: 1024px) {
         float: none;
         margin-right: 20px;
+      }
+    }
+  }
+}
+
+.section-fc {
+  margin: 0 3vw;
+
+  @media (min-width: 1200px) {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  header {
+    @extend %header;
+  }
+
+  p {
+    margin-top: 1em;
+    font-size: 1.5rem;
+    line-height: 1.7;
+  }
+
+  .inner {
+    max-width: 811px;
+    margin: 0 auto;
+
+    @media (min-width: 1200px) {
+      max-width: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  }
+
+  .left,
+  .right {
+    margin-top: 30px;
+
+    @media (min-width: 768px) {
+      margin-top: 56px;
+    }
+  }
+
+  .left {
+    h3 {
+      max-width: 208px;
+    }
+  }
+
+  .right {
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      max-width: 811px;
+    }
+
+    h3 {
+      max-width: 292px;
+    }
+
+    .image {
+      margin-top: 20px;
+
+      @media (min-width: 768px) {
+        margin-top: 0;
+        margin-left: 56px;
       }
     }
   }
