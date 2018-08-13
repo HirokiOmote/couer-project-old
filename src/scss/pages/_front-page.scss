@@ -29,9 +29,14 @@
 
 .main-visual {
   position: relative;
+  margin-top: 66px;
   height: 180px;
   background: url("./images/pages/front-page/img_main.png") right 0 bottom 0 no-repeat, url("./images/pages/front-page/bg_main@sp.png") 50% 50% no-repeat;
   background-size: contain, cover;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+  }
 
   @media screen and (min-width: 1200px) {
     height: 590px;
