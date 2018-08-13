@@ -182,6 +182,10 @@
   .left,
   .center,
   .right {
+    a {
+      @extend .hover-effect;
+    }
+
     span {
       vertical-align: .2em;
     }

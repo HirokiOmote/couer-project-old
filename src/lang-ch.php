@@ -50,8 +50,10 @@
       </p>
 
       <p class="center">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_qr002.png" alt="">
-        <span>微博：日本皮肤管理_COEUR-PROJECT</span>
+        <a href="https://weibo.com/u/6425397402" target="_blank" rel="nofollow">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_qr002.png" alt="">
+          <span>微博：日本皮肤管理_COEUR-PROJECT</span>
+        </a>
       </p>
 
       <p class="right">
@@ -640,7 +642,7 @@
           我们贯彻这一理念,并将它体现在我们的集团之中<br>
           （Coeur＝取自于法语，“心”的意思）</p>
         </div>
-        
+
         <div class="image">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_fc001.jpg" alt="">
         </div>
