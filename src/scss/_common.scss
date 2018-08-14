@@ -618,20 +618,42 @@ th {
     }
 
     a {
-      display: block;
-      padding: 5px 9px;
+      display: flex;
+      align-items: center;
+      padding-left: 8px;
       width: 118px;
       height: 30px;
       border-radius: 3px;
       background-color: #bccddb;
       transition: background-color .2s;
 
+      svg {
+        fill: #fff;
+      }
+
       &:hover {
-        background-color: #2fa5df;
+        background-color: #fff;
+
+        svg {
+          fill: #bccddb;
+        }
       }
 
       &:first-child {
         margin-right: 14px;
+        padding-bottom: 1px;
+
+        svg {
+          width: 61px;
+          height: 19px;
+        }
+      }
+
+      &:nth-child(2) {
+        svg {
+          width: 85px;
+          height: 18px;
+        }
       }
     }
   }

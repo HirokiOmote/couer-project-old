@@ -1,3 +1,5 @@
+<?php include_once('images/common/btn_footer.svg'); ?>
+
 <footer class="global-footer">
   <a class="btn-top" href="#" data-scroll></a>
 
@@ -100,8 +102,8 @@
   </nav>
 
   <div class="btn-footer">
-    <a href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/common/btn_footer001.svg" alt="中文"></a>
-    <a href="https://weibo.com/u/6425397402" target="_blank" rel="nofollow"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/common/btn_footer002.svg" alt="Weibo"></a>
+    <a href="<?php echo home_url(); ?>"><svg class="icon icon-btn_footer002"><use xlink:href="#icon-btn_footer001"></use></svg></a>
+    <a href="https://weibo.com/u/6425397402" target="_blank" rel="nofollow"><svg class="icon icon-btn_footer002"><use xlink:href="#icon-btn_footer002"></use></svg></a>
   </div>
 
   <p class="copyright"><small>Copyright (C) 2002 - <?php echo date('Y'); ?> Coeur Project. All Rights Reserved.</small></p>
