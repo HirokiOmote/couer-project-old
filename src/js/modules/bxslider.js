@@ -8,7 +8,7 @@ function init () {
       speed: 35000,
       pager: false,
       controls: false,
-      slideWidth: 240,
+      slideWidth: 180,
       slideMargin: 0,
       maxSlides: 2,
       infiniteLoop: true,
