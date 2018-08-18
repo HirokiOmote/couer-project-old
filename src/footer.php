@@ -102,7 +102,7 @@
   </nav>
 
   <div class="btn-footer">
-    <a href="<?php echo home_url(); ?>"><svg class="icon icon-btn_footer002"><use xlink:href="#icon-btn_footer001"></use></svg></a>
+    <a href="<?php echo home_url('lang-ch'); ?>"><svg class="icon icon-btn_footer002"><use xlink:href="#icon-btn_footer001"></use></svg></a>
     <a href="https://weibo.com/u/6425397402" target="_blank" rel="nofollow"><svg class="icon icon-btn_footer002"><use xlink:href="#icon-btn_footer002"></use></svg></a>
   </div>
 
