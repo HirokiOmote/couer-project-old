@@ -77,6 +77,7 @@
 					<?php endif ?>
 				</ul>
 			</li>
+			<li><a href="<?php echo home_url('category/event'); ?>">イベント</a></li>
 			<li data-navigation-sub-mouseover>
 				<a href="<?php echo home_url('recruit'); ?>">採用情報</a>
 				<button class="sub-trigger" data-navigation-sub-trigger>

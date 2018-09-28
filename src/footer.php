@@ -1,7 +1,9 @@
+<?php include_once('images/common/btn_footer.svg'); ?>
+
 <footer class="global-footer">
   <a class="btn-top" href="#" data-scroll></a>
 
-  <ul>
+  <ul class="map-content-list">
     <li>
       <p class="ttl">[金沢本社]</p>
       <div class="btn" data-accordion>Address&amp;Map</div>
@@ -35,6 +37,74 @@
       </a href="">
     </li>
   </ul>
+
+  <nav class="footer-menu-wrap">
+    <ul class="footer-menu">
+			<li><a href="<?php echo home_url(); ?>">ホーム</a></li>
+			<li>
+				<a href="<?php echo home_url('guide'); ?>">事業案内</a>
+				<ul class="sub-menu">
+					<li><a href="<?php echo home_url('guide#chart'); ?>">組織図</a></li>
+					<li><a href="<?php echo home_url('guide#depart'); ?>">事業部紹介</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="<?php echo home_url('policy'); ?>">企業理念</a>
+				<ul class="sub-menu">
+					<li><a href="<?php echo home_url('policy#philosophy'); ?>">企業理念</a></li>
+					<li><a href="<?php echo home_url('policy#guideline'); ?>">指針</a></li>
+					<li><a href="<?php echo home_url('policy#president'); ?>">社長プロフィール</a></li>
+					<li><a href="<?php echo home_url('motojuku'); ?>">茂藤塾</a></li>
+					<li><a href="<?php echo home_url('policy#interview'); ?>">取材記事</a></li>
+					<li><a href="<?php echo home_url('policy#social'); ?>">社会貢献活動</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="<?php echo home_url('profile'); ?>">会社情報</a>
+				<ul class="sub-menu">
+					<li><a href="<?php echo home_url('profile#profile'); ?>">会社概要</a></li>
+					<li><a href="<?php echo home_url('profile#history'); ?>">グループ沿革</a></li>
+					<li><a href="<?php echo home_url('profile#mark'); ?>">登録商標</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="<?php echo home_url('media'); ?>">メディア</a>
+				<ul class="sub-menu">
+					<?php
+						$media_page_id = get_page_by_path('media')->ID;
+						$counter = 1;
+					?>
+					<?php if ( have_rows('media', $media_page_id) ): ?>
+				    <?php while ( have_rows('media', $media_page_id) ): the_row(); ?>
+							<li><a href="<?php echo home_url('media') . '/#' . $counter++; ?>"><?php echo the_sub_field('title') ?></a></li>
+						<?php endwhile; ?>
+					<?php endif ?>
+				</ul>
+			</li>
+			<li><a href="<?php echo home_url('category/event'); ?>">イベント</a></li>
+			<li>
+				<a href="<?php echo home_url('recruit'); ?>">採用情報</a>
+				<ul class="sub-menu">
+					<li><a href="<?php echo home_url('recruit#1'); ?>">石川エリア</a></li>
+					<li><a href="<?php echo home_url('recruit#2'); ?>">東京エリア</a></li>
+					<li><a href="<?php echo home_url('recruit#4'); ?>">その他エリア</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="<?php echo home_url('contact'); ?>">お問い合わせ</a>
+				<ul class="sub-menu">
+					<li><a href="<?php echo home_url('contact#form'); ?>">お問い合わせフォーム</a></li>
+					<li><a href="<?php echo home_url('contact#policy'); ?>">プライバシーポリシー</a></li>
+					<li><a href="<?php echo home_url('contact#tel'); ?>">電話・FAXでのお問合せ</a></li>
+				</ul>
+			</li>
+		</ul>
+  </nav>
+
+  <div class="btn-footer">
+    <a href="<?php echo home_url('lang-ch'); ?>"><svg class="icon icon-btn_footer002"><use xlink:href="#icon-btn_footer001"></use></svg></a>
+    <a href="https://weibo.com/u/6425397402" target="_blank" rel="nofollow"><svg class="icon icon-btn_footer002"><use xlink:href="#icon-btn_footer002"></use></svg></a>
+  </div>
 
   <p class="copyright"><small>Copyright (C) 2002 - <?php echo date('Y'); ?> Coeur Project. All Rights Reserved.</small></p>
 </footer>
