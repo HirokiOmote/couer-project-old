@@ -19,7 +19,7 @@
           <iframe class="embed" src="https://www.youtube.com/embed/VoPxpytoKwk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
 
-        <p>我们为您提供最优秀的师资力量和最高端的服务品质，欢迎您加入我们行业！与您相约东京银座・金泽・大阪・富山</p>
+        <p>我们为您提供最优秀的师资力量和最高端的服务品质，欢迎您加入我们行业！与您相约东京银座・金泽・富山</p>
 
         <div class="logo">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/logo_ch001.png" alt="">
@@ -50,8 +50,10 @@
       </p>
 
       <p class="center">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_qr002.png" alt="">
-        <span>微博：日本皮肤管理_COEUR-PROJECT</span>
+        <a href="https://weibo.com/u/6425397402" target="_blank" rel="nofollow">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_qr002.png" alt="">
+          <span>微博：日本皮肤管理_COEUR-PROJECT</span>
+        </a>
       </p>
 
       <p class="right">
@@ -214,6 +216,32 @@
         </li>
       </ul>
     </section>
+
+    <section class="cert">
+      <div class="image">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/front-page/logo_ieba.svg" alt="国際エステティック美容協会">
+      </div>
+
+      <h3>【 国際エステティック美容協会 认定技术】</h3>
+
+      <ul>
+        <li>
+          <figure>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_cert_ja004.jpg" alt="认定技术1">
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_cert_ja005.jpg" alt="认定技术2">
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_cert_ja006.jpg" alt="认定技术3">
+          </figure>
+        </li>
+      </ul>
+    </section>
   </section>
 
   <section class="section-mark">
@@ -265,43 +293,50 @@
       <li>
         <figure>
           <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_caviet001.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_caviet001@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_caviet001.jpg" alt=""></span>
-          <figcaption>注册商标Dr.Caviet®</figcaption>
+          <figcaption>注册商标Dr.Caviet®<br />
+小型多功能燃脂瘦身仪</figcaption>
         </figure>
       </li>
       <li>
         <figure>
           <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_caviet002.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_caviet002@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_caviet002.jpg" alt=""></span>
-          <figcaption>注册商标Dr.Caviet®</figcaption>
+          <figcaption>注册商标Dr.Caviet®<br />
+          小型多功能燃脂瘦身仪 </figcaption>
         </figure>
       </li>
       <li>
         <figure>
           <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_pico.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_pico@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_pico.jpg" alt=""></span>
-          <figcaption>注册商标PicoDonna®</figcaption>
+          <figcaption>注册商标PicoDonna®<br />
+          有机私处护理系列 </figcaption>
         </figure>
       </li>
       <li>
         <figure>
           <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_nudist.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_nudist@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_nudist.jpg" alt=""></span>
-          <figcaption>注册商标PicoDonna®</figcaption>
+          <figcaption>注册商标PicoDonna®<br />
+          敏感肌专用身体护理系列 </figcaption>
         </figure>
       </li>
       <li>
         <figure>
           <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_beaute001.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_beaute001@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_beaute001.jpg" alt=""></span>
-          <figcaption>注册商标BEAUTE de Coeur®</figcaption>
+          <figcaption>注册商标BEAUTE de Coeur®<br />
+          高端美容液系列 </figcaption>
         </figure>
       </li>
       <li>
         <figure>
           <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_beaute002.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_beaute002@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_beaute002.jpg" alt=""></span>
-          <figcaption>注册商标BEAUTE de Coeur®</figcaption>
+          <figcaption>注册商标BEAUTE de Coeur®<br />
+          高端美容液系列 </figcaption>
         </figure>
       </li>
       <li>
         <figure>
           <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_arrivo.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_arrivo@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_arrivo.jpg" alt=""></span>
-          <figcaption>注册商Dr.Arrivo® Evolution</figcaption>
+          <figcaption>注册商Dr.Arrivo® Evolution<br />
+          小型多功能美颜仪 </figcaption>
         </figure>
       </li>
       <li>
@@ -313,26 +348,47 @@
       <li>
         <figure>
           <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_et.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_et@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_et.jpg" alt=""></span>
-          <figcaption>注册商标et BODY®  et BUST®</figcaption>
+          <figcaption>注册商标et BODY®  et BUST®<br />
+          仪器配套专用美容液 </figcaption>
         </figure>
       </li>
       <li>
         <figure>
           <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_spa.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_spa@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_spa.jpg" alt=""></span>
-          <figcaption>注册商标BEAUTE de Coeur®</figcaption>
+          <figcaption>注册商标BEAUTE de Coeur®<br />
+          温泉系:雅致温泉水系列 </figcaption>
         </figure>
       </li>
       <li>
         <figure>
           <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_essential.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_essential@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_essential.jpg" alt=""></span>
-          <figcaption>注册商标BEAUTE de Coeur®</figcaption>
+          <figcaption>注册商标BEAUTE de Coeur®<br />
+          アロマ系:F・B浓缩香薰精油 </figcaption>
         </figure>
       </li>
       <li>
         <figure>
           <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_refix.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_refix@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_refix.jpg" alt=""></span>
-          <figcaption>注册商标BEAUTE de Coeur®</figcaption>
+          <figcaption>注册商标BEAUTE de Coeur®<br />
+          Re-fix系:Re-fix瘦脸霜・瘦身啫喱 </figcaption>
         </figure>
+      </li>
+      <li>
+        <figure>
+          <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_steam.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_steam@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_steam.jpg" alt=""></span>
+          <figcaption>注册商标BEAUTE de Coeur®<br />
+          人体干细胞美容液</figcaption>
+        </figure>
+      </li>
+      <!--
+      <li>
+        <figure>
+          <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_pb.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_pb@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_pb.jpg" alt=""></span>
+      </li>
+      -->
+      <li>
+        <figure>
+          <span><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_oem.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_oem@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_oem.jpg" alt=""></span>
       </li>
     </ul>
   </section>
@@ -440,7 +496,7 @@
       </li>
     </ul>
   </section>
-  
+
   <section class="section-tokyo">
     <header>
       <h2>中国・苏州教学环境与学员风采</h2>
@@ -575,17 +631,6 @@
         JCLA日本化妆品1级<br>
         Coeur. Aesthetic上海分店，担任店长。现在是行政经理，主要负责新商品企划开发以及各种教育培训会企划等。</p>
 
-<!--
-        <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_instructor004.jpg" alt="">
-        内田育美（uchida ikumi）<br>
-        株式会社Coeur.Project　　FC・咨询事业部　科长<br>
-        1990年取得了美容师国家资格<br>
-        专业：美瘦术讲师<br>
-        1990年取得了美容师国家资格，日本美容协会的美容师资格。<br>
-        之后，就职于株式会社生活之木，担任培训讲师。<br>
-        2008年进入本公司。Coeur. Aesthetic福井分店工作。提拔为店长，担任新人培训。之后，担任J.B.MACHINERIE事业部的首席讲师。Coeur公司所有新人培训负责人。</p>
-        -->
-
         <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_instructor005.jpg" alt="">
         中西 良枝（nakanishi yoshie）<br>
         株式会社Coeur.Project 店长・培训部经理<br>
@@ -595,12 +640,6 @@
         负责沙龙店员培训以及店铺指导，被培训过的沙龙店员曾荣获月销量第一，顾客满意度第一。<br>
         现负责Coeur皮肤管理培训讲师。</p>
 
-        <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_instructor006.jpg" alt="">
-        袋 由佳 （Fukuro yuka）<br>
-        AEA高级美容讲师<br>
-        香薰鉴定1级<br>
-        化妆师鉴定1级 </p>
-
         <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_instructor007.jpg" alt="">
         村田 遥香（Murata haruka）<br>
         ICAM国际认定美容师资格<br>
@@ -608,6 +647,35 @@
         香薰鉴定1级 </p>
       </div>
     </section>
+  </section>
+
+  <section class="section-fc">
+    <header>
+      <h2>加盟店募集！</h2>
+    </header>
+
+    <div class="inner">
+      <section class="left">
+        <h3><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/txt_fc001.svg" alt="加盟店募集"></h3>
+        <p>加盟店优势：<br>
+        1、开店前后10天， 日本Coeur店长亲临店内指导<br>
+        2、加盟店可免费参加3次专业培训<br>
+        3、每年均有日本专业老师扶持店铺</p>
+      </section>
+
+      <section class="right">
+        <div class="right-inner">
+          <h3><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_fc002.svg" alt="永恒的美"></h3>
+          <p>我们始终用“心”对待每一位顾客<br>
+          我们贯彻这一理念,并将它体现在我们的集团之中<br>
+          （Coeur＝取自于法语，“心”的意思）</p>
+        </div>
+
+        <div class="image">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_fc001.jpg" alt="">
+        </div>
+      </section>
+    </div>
   </section>
 </main>
 

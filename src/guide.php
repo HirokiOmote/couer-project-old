@@ -58,7 +58,7 @@
 
         <p class="txt-note">※ロゴマークをクリック(タップ)で詳細ページにリンクします。</p>
         <div style="margin-top:10px">
-        <iframe width="350" height="197" src="https://www.youtube.com/embed/8NAIVvDjGRQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="350" height="197" src="https://www.youtube.com/embed/LwrYgM4-XEc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -201,6 +201,7 @@
         <ul class="half-list">
           <li><a href="<?php echo home_url("/lang-ch/"); ?>"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas001.png" alt="茂東塾"></a></li>
           <li><a href="<?php echo home_url("/lang-ch/"); ?>"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_overseas002.png" alt="光脱毛テクニックセミナー"></a></li>
+          <li><a href="http://ieba.jp/" target="_blank"><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_ieba001.jpg, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_ieba001@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_ieba001.jpg" alt="国際エステティック美容協会"></a></li>
         </ul>
 
         <p class="txt-note">※ロゴマークをクリック(タップ)で詳細ページにリンクします。</p>
