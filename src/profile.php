@@ -393,6 +393,10 @@
             <th>2018年05月</th>
             <td>国際エステティック美容協会（INTERNATIONAL ESTHETIC BEAUTY ASSOCIATION） 設立</td>
           </tr>
+          <tr>
+            <th>2018年10月</th>
+            <td>中国のパートナー企業Krayne科顔麗と契約『スクール事業』『FC事業』展開</td>
+          </tr>
         </tbody>
       </table>
     </section>
