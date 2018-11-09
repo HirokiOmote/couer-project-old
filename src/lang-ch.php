@@ -440,13 +440,112 @@
       <li>
         <figure>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama005.jpg" alt="">
-          <figcaption>茂藤社长亲授经营理念</figcaption>
+          <figcaption>治疗室</figcaption>
         </figure>
       </li>
       <li>
         <figure>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama006.jpg" alt="">
-          <figcaption>沙龙新人培训</figcaption>
+          <figcaption>富山总社教学楼</figcaption>
+        </figure>
+      </li>
+    </ul>
+  </section>
+  
+  <section class="section-tokyo">
+    <header>
+      <h2>富山教学环境与学员风采</h2>
+    </header>
+
+    <ul>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama007.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama008.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama009.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama010.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama011.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama012.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama013.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama014.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama015.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama016.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama017.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama018.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama019.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama020.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama021.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama022.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama023.jpg" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_toyama024.jpg" alt="" />
+          <figcaption></figcaption>
         </figure>
       </li>
     </ul>
@@ -539,8 +638,6 @@
           <figcaption></figcaption>
         </figure>
       </li>
-    </ul>
-    <ul>
       <li>
         <figure>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_soshu007.jpg" alt="">
