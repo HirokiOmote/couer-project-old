@@ -218,6 +218,31 @@
     </section>
 
     <section class="cert">
+      <h3>【 富山会場 认定技术 】</h3>
+
+      <ul>
+        <li>
+          <figure>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_cert_ja008.jpg" alt="">
+            <figcaption><span class="txt-note">髙橋ミカ 特别的讲习</span><br>小颜术</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_cert_ja009.jpg" alt="">
+            <figcaption><span class="txt-note">髙橋ミカ 特别的讲习</span><br>瘦身术</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_cert_ja010.jpg" alt="">
+            <figcaption>接待指南术</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+
+    <section class="cert">
       <div class="image">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/front-page/logo_ieba.svg" alt="国際エステティック美容協会">
       </div>
@@ -451,7 +476,7 @@
       </li>
     </ul>
   </section>
-  
+
   <section class="section-tokyo">
     <header>
       <h2>富山教学环境与学员风采</h2>
@@ -743,6 +768,17 @@
         AEA认定美容讲师<br>
         香薰鉴定1级 </p>
       </div>
+    </section>
+
+    <section class="bottom">
+      <h3>特别的讲师介绍</h3>
+
+      <div class="inner">
+        <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/lang/china/img_instructor008.jpg" alt="">
+        髙橋ミカ（takahashi mika）<br>
+        1971年在日本东京出生。高中毕业后，就业与日本顶尖的美容沙龙店，在27岁时自立门户开展了自己的事业。<br>
+        2004年，首家美容沙龙店『ミッシィボーテ』在日本东京白金开业。<br>
+        在接待许多名人和艺人的同时，高桥老师还忙于制作化妆品，各种讲座，出席电视节目和杂志等</p>
     </section>
   </section>
 
