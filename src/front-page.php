@@ -63,6 +63,12 @@ get_header();
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project007.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project007@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project007.png" alt="">
       </a>
     </li>
+    <li data-aos="fade-down">
+      <a href="<?php echo home_url("guide/#payment"); ?>">
+        <p>ペイメント<br>事業部</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project008.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project008@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_project008.png" alt="">
+      </a>
+    </li>
   </ul>
 </section>
 
@@ -284,6 +290,12 @@ get_header();
       <a href="<?php echo home_url("/lang-ch/"); ?>">
         <p>クール<br>日本フェイシャル<br>エステティック</p>
         <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand015.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand015@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand015.png" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="<?php echo home_url("/payment/"); ?>">
+        <p>ラカラ<br>決済サービス</p>
+        <img srcset="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand017.png, <?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand017@2x.png 2x" src="<?php echo get_stylesheet_directory_uri();?>/images/pages/front-page/img_brand017.png" alt="">
       </a>
     </li>
   </ul>

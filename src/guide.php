@@ -206,6 +206,28 @@
 
         <p class="txt-note">※ロゴマークをクリック(タップ)で詳細ページにリンクします。</p>
       </section>
+      
+      <section class="section-guide" id="payment">
+        <header>
+          <p>PAYMENT DIVISION</p>
+          <h3>ペイメント事業部</h3>
+        </header>
+
+        <div class="icon">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/img_payment.svg" alt="">
+        </div>
+
+        <p>＊中国人向けモバイル決済サービス</p>
+
+        <ul class="half-list">
+          <li><!--<a href="<?php echo home_url("/lang-ch/"); ?>">--><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_payment001.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_payment001@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_payment001.png" alt="ラカラ決済サービス"><!--</a>--></li>
+          <li><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_payment002.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_payment002@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_payment002.png" alt="アリペイ"></li>
+          <li><img srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_payment003.png, <?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_payment003@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pages/guide/logo_payment003.png" alt="ウィーチャット"></li>
+        </ul>
+
+        <p class="txt-note">※ロゴマークをクリック(タップ)で詳細ページにリンクします。</p>
+      </section>
+      
     </div>
   </section>
 </main>
